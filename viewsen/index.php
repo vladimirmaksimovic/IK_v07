@@ -6,8 +6,7 @@
 
     <!-- Logo -->
     <section class="col-lg-2 col-md-12">
-      <img src="../images/logo-light-rotate.png" alt="Logo"
-        class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
+      <img src="../images/logo-light-rotate.png" alt="Logo" class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
       <img src="../images/logo-light.png" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
     </section>
     <!-- /Logo -->
@@ -17,7 +16,7 @@
       <div class="gallery-block grid-gallery bg-light">
         <div class="container-fluid">
           <div class="row">
-            
+
             <div class="col-md-6 col-lg-3 item">
               <div class="pb-4">
                 <a href="../viewsen/images.php">
@@ -55,10 +54,9 @@
                 </a>
               </div>
             </div>
-            
-            
+
             <div class="col-md-6 col-lg-3 item">
-            <div class="pb-4">
+              <div class="pb-4">
                 <a href="../viewsen/design.php">
                   <img src="../images/pocetna/dizajn/02.jpg" class="card-img-top img-fluid" alt="..." />
                 </a>
@@ -68,7 +66,7 @@
                   <img src="../images/pocetna/slika/05.jpg" class="card-img-top img-fluid" alt="..." />
                 </a>
               </div>
-               <div class="pb-4">
+              <div class="pb-4">
                 <a href="../viewsen/sculptures.php">
                   <img src="../images/pocetna/skulptura/02.jpg" class="card-img-top img-fluid" alt="..." />
                 </a>
@@ -89,10 +87,9 @@
                 </a>
               </div>
             </div>
-            
-            
+
             <div class="col-md-6 col-lg-3 item">
-            <div class="pb-4">
+              <div class="pb-4">
                 <a href="../viewsen/glass&ceramics.php">
                   <img src="../images/pocetna/staklokeramika/03.jpg" class="card-img-top img-fluid" alt="..." />
                 </a>
@@ -128,12 +125,9 @@
                 </a>
               </div>
             </div>
-            
-            
-            
-            
+
             <div class="col-md-6 col-lg-3 item">
-            <div class="pb-4">
+              <div class="pb-4">
                 <a href="../viewsen/images.php">
                   <img src="../images/pocetna/slika/14.jpg" class="card-img-top img-fluid" alt="..." />
                 </a>
@@ -168,16 +162,14 @@
                   <img src="../images/pocetna/slika/06.jpg" class="card-img-top img-fluid" alt="..." />
                 </a>
               </div>
-              </div>
             </div>
-          
-          
-          
           </div>
+
         </div>
       </div>
-    </section>
-    <!-- /Gallery -->
+  </div>
+  </section>
+  <!-- /Gallery -->
 
   </div>
 </main>

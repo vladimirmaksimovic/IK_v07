@@ -1,6 +1,5 @@
 <?php include("header.php"); ?>
 
-
 <!-- Main Section -->
 <main class="workshop pt-5 bg-light">
   <section class="container">
@@ -140,8 +139,8 @@
             </span> -->
           </a>
         </div>
-        
-        
+
+
         <div class="col-md-12 col-lg-4 item zoom-on-hover">
           <a class="lightbox" href="../images/KreativnaJazbina/18.jpg">
             <img class="img-fluid image" src="../images/KreativnaJazbina/18.jpg" alt="Slika" />

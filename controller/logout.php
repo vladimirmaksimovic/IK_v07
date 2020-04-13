@@ -2,8 +2,6 @@
 
 session_start();
 
+session_destroy();
 
-
-        session_destroy();
-
-        header('location:../views/index.php');
+header('location:../views/index.php');

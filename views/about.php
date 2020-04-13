@@ -1,7 +1,6 @@
-
-  <!-- Header Section -->
-  <?php include("header.php"); ?>
-  <!-- /Header Section -->
+<!-- Header Section -->
+<?php include("header.php"); ?>
+<!-- /Header Section -->
 
 <!-- Main Section -->
 <main class="about-me pt-5 bg-light">
