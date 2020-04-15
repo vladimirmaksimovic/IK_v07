@@ -12,11 +12,11 @@ nav a:hover {
   opacity: 0.8;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   text-shadow: 3px 3px 0 #777;
-}
+} */
 
 /* Logo */
 .logo {
