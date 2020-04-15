@@ -1,8 +1,7 @@
-<!-- Header Section -->
+<!-- Header -->
 <?php include("header.php"); ?>
-<!-- /Header Section -->
 
-<!-- Main Section -->
+<!-- Main -->
 <main class="about-me pt-5 bg-light">
   <section class="container bg-light pb-5">
     <h1 class="text-center pt-5">Ivana Knežević</h1>
@@ -112,9 +111,8 @@
 
   <!-- Google Map -->
   <?php include("gmap.php"); ?>
-  <!-- /Google Map -->
 
 </main>
-<!-- /Main Section -->
 
+<!-- Footer -->
 <?php include("footer.php"); ?>

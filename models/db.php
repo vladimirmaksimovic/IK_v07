@@ -1,5 +1,6 @@
 <?php
 class DB
+
 {
 
     private static $factory;
@@ -33,6 +34,7 @@ class DB
             self::$factory[$config] = $pdo;
 
             return self::$factory[$config];
+
         } catch (PDOException $e) {
 
             die('Connection failed: ' . $e->getMessage());

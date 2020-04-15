@@ -1,6 +1,7 @@
+<!-- Header -->
 <?php include("header.php"); ?>
 
-<!-- Main Section -->
+<!-- Main -->
 <main class="events pt-5 bg-light">
   <section class="container pb-5 section-container">
     <h2 class="text-center p-5">
@@ -45,9 +46,8 @@
 
   <!-- Google Map -->
   <?php include("gmap.php"); ?>
-  <!-- /Google Map -->
 
 </main>
-<!-- /Main Section -->
 
+<!-- Footer -->
 <?php include("footer.php"); ?>

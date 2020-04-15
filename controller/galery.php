@@ -1,4 +1,5 @@
 <?php
+
 require_once '../models/DAO.php';
 
 $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : "";
@@ -11,13 +12,13 @@ switch ($action) {
         foreach ($atelje as $value) {
             $id = $value['id'];
         }
+
         $id = $id + 1;
         $image = $_FILES['image']['name'];
         $image_tmp = $_FILES['image']['tmp_name'];
         $imageFileType = strtolower(pathinfo($image, PATHINFO_EXTENSION));
         $imageNameType = $id . "." . $imageFileType;
         $uploaded_image = "../pictures/" . $imageNameType;
-
 
         $namesr = isset($_REQUEST['namesr']) ? $_REQUEST['namesr'] : "";
         $memosr = isset($_REQUEST['memosr']) ? $_REQUEST['memosr'] : "";
@@ -64,10 +65,12 @@ switch ($action) {
         $category = isset($_REQUEST['category']) ? $_REQUEST['category'] : "";
         $sold = isset($_REQUEST['sold']) ? $_REQUEST['sold'] : "";
         $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : "";
+
         $galeru = array(
             'image' => $image, 'nameen' => $nameen, 'namesr' => $namesr,
             'memoen' => $memoen, 'memosr' => $memosr, 'category' => $category, 'sold' => $sold, 'id' => $id
         );
+
         // if (!empty($image) && !empty($namesr) && !empty($memosr)!empty($nameen) && !empty($memoen) && !empty($category)&& !empty($sold)) {
         if (!empty($namesr) && !empty($nameen)) {
             $dao = new DAO();
@@ -97,6 +100,7 @@ switch ($action) {
         $imageFileType = strtolower(pathinfo($image1, PATHINFO_EXTENSION));
         $imageNameType = $picture;
         $uploaded_image = "../pictures/" . $imageNameType;
+
         if ($imageFileType == 'jpg') {
             unlink($delete_picture);
             move_uploaded_file($image_tmp, $uploaded_image);
@@ -107,6 +111,7 @@ switch ($action) {
             include '../views/CRUDgalery.php';
         }
         // mislim da ovde nedostaje BRAKE;
+
     default:
         header("location: ../views/CRUDgalery.php");
         break;

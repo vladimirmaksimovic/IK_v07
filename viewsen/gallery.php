@@ -1,6 +1,7 @@
+<!-- Header -->
 <?php include("header.php"); ?>
 
-<!-- Main Section -->
+<!-- Main -->
 <main class="gallery bg-light">
 
   <!-- Cards -->
@@ -52,13 +53,11 @@
       </div>
     </div>
   </section>
-  <!-- /Cards -->
 
   <!-- Google Map -->
   <?php include("gmap.php"); ?>
-  <!-- /Google Map -->
 
 </main>
-<!-- /Main Section -->
 
+<!-- Footer -->
 <?php include("footer.php"); ?>

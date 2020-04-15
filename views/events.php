@@ -1,6 +1,7 @@
+<!-- Header -->
 <?php include("header.php"); ?>
 
-<!-- Main Section -->
+<!-- Main -->
 <main class="events pt-5 bg-light">
   <section class="container pb-5 section-container">
     <h1 class="text-center p-5">
@@ -34,7 +35,7 @@
         <div class="col-12 col-lg-6">
           <h3 class="text-center pt-3">Gračanica- Notr Dam</h3>
           <p class="p-1 text-justify">
-            30. jula 2019. u Umetničkoj galeriji Nadežda Petrović održana je Letnja likovne radionica Notr Dam –Gračanica. Radionica je putem isticanja ove dve građevine, ukazala na vrednost celokupne svetske kulturne baštine, kojoj na žalost često kroz istoriju prete opasnosti rata, nebrige, prirodnih katastrofa i druge okolnosti. Ova radionica je deci omogućila bliski susret sa orginalnim slikama Nadežde Petrović - Gračanica iz 1913. i slikom Božidara Prodanovića – Bogorodičina crkva iz 1953. godine. Radionice su bile namenjene i deci i odraslima ali najveći broj posetilaca i aktera ovog događaja imalo je od 5 do 12 godina. Povod za radionice bila je podrška pariskoj crkvi Notr Dam stradaloj u požaru, tako da je motiv za slikanje bila čuvena katedrala, ali kao pandam ovoj građevini, i Gračanica, biser srpske srednjovekovne arhitekture. U ovoj radionici učestvovalo je oko 40 posetilaca galerije. Stručno vođenje obavila je kustos galerije Dragana Božović , a radionicom je koridinirala slikarka Ivana Knežević.
+            30. jula 2019. u Umetničkoj galeriji Nadežda Petrović održana je Letnja likovne radionica Notr Dam – Gračanica. Radionica je putem isticanja ove dve građevine, ukazala na vrednost celokupne svetske kulturne baštine, kojoj na žalost često kroz istoriju prete opasnosti rata, nebrige, prirodnih katastrofa i druge okolnosti. Ova radionica je deci omogućila bliski susret sa orginalnim slikama Nadežde Petrović - Gračanica iz 1913. i slikom Božidara Prodanovića – Bogorodičina crkva iz 1953. godine. Radionice su bile namenjene i deci i odraslima ali najveći broj posetilaca i aktera ovog događaja imalo je od 5 do 12 godina. Povod za radionice bila je podrška pariskoj crkvi Notr Dam stradaloj u požaru, tako da je motiv za slikanje bila čuvena katedrala, ali kao pandam ovoj građevini, i Gračanica, biser srpske srednjovekovne arhitekture. U ovoj radionici učestvovalo je oko 40 posetilaca galerije. Stručno vođenje obavila je kustos galerije Dragana Božović, a radionicom je koridinirala slikarka Ivana Knežević.
           </p>
         </div>
       </div>
@@ -43,9 +44,9 @@
 
       <div class="row align-items-center pt-4">
         <div class="col-12 col-lg-6">
-          <h3 class="text-center pt-3">KREATIVNA JAZBINA u parku</h3>
+          <h3 class="text-center pt-3"><span class="workshop-title">Kreativna Jazbina</span> u parku</h3>
           <p class="p-1 text-justify">
-            Osim časova u KREATIVNOJ JAZBINI i rada u samom ateljeu, deca često izlaze u prirodu. U sklopu radionivce mali kreativci puno vremena provode u obližnjem parku, gde svim čulima uživaju u zelenilu drveća, raznolikosti posetilaca sunčanom danu i žuboru vode, oni posmatraju i opažaju svet oko sebe. Na terenu crtaju i slikaju ali i prikupljaju materijal iz prirode od kojeg mogu da naprave igračke i upotrebne predmete. Tako jačaju ekološku svest i poštovanje prema prirodi , dišu čist vazduh, igraju se, pričaju o bojama, teksturama, liniji, svetlosti, o tome koliko je zdravo biti aktivan i poštovati prirodu. Kroz razgovor i primere na terenu povećavaju svest o tome da smo svideo velikog organizam koji čini i menja ekosistem. Upoznaju se sa najrazličitijim biljkama, trče, kriju se i skaču.
+            Osim časova u <span class="workshop-title">kreativnoj jazbini</span> i rada u samom ateljeu, deca često izlaze u prirodu. U sklopu radionice mali kreativci puno vremena provode u obližnjem parku, gde svim čulima uživaju u zelenilu drveća, raznolikosti posetilaca sunčanom danu i žuboru vode, oni posmatraju i opažaju svet oko sebe. Na terenu crtaju i slikaju ali i prikupljaju materijal iz prirode od kojeg mogu da naprave igračke i upotrebne predmete. Tako jačaju ekološku svest i poštovanje prema prirodi, dišu čist vazduh, igraju se, pričaju o bojama, teksturama, liniji, svetlosti, o tome koliko je zdravo biti aktivan i poštovati prirodu. Kroz razgovor i primere na terenu povećavaju svest o tome da smo svideo velikog organizam koji čini i menja ekosistem. Upoznaju se sa najrazličitijim biljkama, trče, kriju se i skaču.
           </p>
         </div>
         <div class="col-12 col-lg-6">
@@ -107,7 +108,7 @@
         <div class="col-12 col-lg-6">
           <h3 class="text-center pt-3">Kreativci u Umetničkoj galeriji Nadežda Petrović</h3>
           <p class="p-1 text-justify">
-            Polaznici Kreativne jazbine i sugrađani inspirisani izložbom u Umetničkoj galeriji Nadežda Petrović uradili su svoja mala umetnička dela koja su razotkrila priče slika. Postavka izložba pod nazivom SLIKE I NJIHOVE TAJNE su čak dva puta ugostila Ivanu Knežević i njene male umetnike. Jedna radionica se održala u predivnom prostoru dvorišta galerije.Deca i njihovi roditelji su crtali i slikali i doslikavali već odštampane segmente slika velikih majstora. Kreativci su maštajući odgovarali na pitanje šta to može da krije ta slika a uz stručno vođenje kustosa izložbe Danijela Mikića, upoznali su orginalna umetnička dela postavljena u galeriji. Predivno masovno druženje pratio je divan sunčan dan pa su i boje koje su bile korišćene obasjavale srećom i pozitivnom energijom. Drugi put su kreativci u samoj galeriji imali radionicu ali su tehnike rada bile izmenjene, bavili su se kolažom i koristili su suve boje za finiširanje rada. Obe radionice su bile izuzetno posećene.
+            Polaznici <span class="workshop-title">Kreativne jazbine</span> i sugrađani inspirisani izložbom u Umetničkoj galeriji Nadežda Petrović uradili su svoja mala umetnička dela koja su razotkrila priče slika. Postavka izložba pod nazivom <span class="workshop-title">slike i njihove tajne</span> su čak dva puta ugostila Ivanu Knežević i njene male umetnike. Jedna radionica se održala u predivnom prostoru dvorišta galerije. Deca i njihovi roditelji su crtali i slikali i doslikavali već odštampane segmente slika velikih majstora. Kreativci su maštajući odgovarali na pitanje šta to može da krije ta slika a uz stručno vođenje kustosa izložbe Danijela Mikića, upoznali su orginalna umetnička dela postavljena u galeriji. Predivno masovno druženje pratio je divan sunčan dan pa su i boje koje su bile korišćene obasjavale srećom i pozitivnom energijom. Drugi put su kreativci u samoj galeriji imali radionicu ali su tehnike rada bile izmenjene, bavili su se kolažom i koristili su suve boje za finiširanje rada. Obe radionice su bile izuzetno posećene.
           </p>
         </div>
       </div>
@@ -118,7 +119,7 @@
         <div class="col-12 col-lg-6">
           <h3 class="text-center pt-3">Oslikavanje vrtića iz 2018.</h3>
           <p class="p-1 text-justify">
-            Sredinom 2018. godine na autorkino veliko zadovoljstvo usledio je poziv vlasnice jednog privatnog vrtića da autorka oživi i oslika prostor velike starinske kuće u kojoj bi trebalo da se otvori dnevni boravak za najmlađe. Sam prostor je adaptirana kuća koja je sagrađena sredinom XX veka, prostor je bio u dobrom stanju ali je zahtevao posebnu dekoraciju i autentičnost mobilijara. Inspiracija nije izostala, na glavnom zidu dnevnog boravka pojavio se prizor sa livade.U velikom hladu hrasta koji se protezao i po plafon u štuko reljefu, oslikana je i mala porodica sova. Livadu i sunčan dan oplemenile su najrazličitije bubice i ptice a na suprotnom kraju zida stojali susuncokreti sa svojim stanarima, skakavcima i mravima. Livada je bogato oslikana, na njoj se našlo dosta lekovitog bilja, paprati i pečuraka. Insekti su stilizovani i ilustrovani tako da vaspitačima daju prostora da svaki put mališanima mogu da ispričaju novu priču koju ilustruje slika na zidu. Okice svih bubica su dvodimenzionalne i ispupčene tako da najmlađi mogu da ih dodiruju.
+            Sredinom 2018. godine na autorkino veliko zadovoljstvo usledio je poziv vlasnice jednog privatnog vrtića da autorka oživi i oslika prostor velike starinske kuće u kojoj bi trebalo da se otvori dnevni boravak za najmlađe. Sam prostor je adaptirana kuća koja je sagrađena sredinom XX veka, prostor je bio u dobrom stanju ali je zahtevao posebnu dekoraciju i autentičnost mobilijara. Inspiracija nije izostala, na glavnom zidu dnevnog boravka pojavio se prizor sa livade. U velikom hladu hrasta koji se protezao i po plafon u štuko reljefu, oslikana je i mala porodica sova. Livadu i sunčan dan oplemenile su najrazličitije bubice i ptice a na suprotnom kraju zida stojali susuncokreti sa svojim stanarima, skakavcima i mravima. Livada je bogato oslikana, na njoj se našlo dosta lekovitog bilja, paprati i pečuraka. Insekti su stilizovani i ilustrovani tako da vaspitačima daju prostora da svaki put mališanima mogu da ispričaju novu priču koju ilustruje slika na zidu. Okice svih bubica su dvodimenzionalne i ispupčene tako da najmlađi mogu da ih dodiruju.
           </p>
         </div>
         <div class="col-12 col-lg-6">
@@ -179,7 +180,7 @@
           <div class="col-12 col-lg-6">
             <h3 class="text-center pt-3">Poseta mladih budućih novinara</h3>
             <p class="p-1 text-justify">
-              Škola novinarstva za decu i mlade – stepenik do kompetencija za savremeno društvo, posetilo je prostor KREATIVNA JAZBINE i sa svojim mentorom Natašom Turuntsaš i domaćinom Ivanom Knežević pozabavili su se i upoznali sa procesom kreativnog nastanka i inspiracije umetnika. Mladi budući novinari su razgovarali o likovnoj umetnosti, izboru zanimanja, kreativnosti, inicijativi, ali i o društvu, plemenitosti, osećanjima, različitostima i osećajima one dece koja su žrtve socijalnog nasilja. Cela poseta bila je inspirisana ličnim iskustvima domaćina posete i pričama Slađane Parezanović o njihovim izmišljenim a možda i stvarnim vršnjaciima i njihovim problemima. Zadatak je bio da mladi novinari naprave priču i snime razgovor sa slikarkom ali da i sami inspirisani temom budu kreativni i okušaju se kao umetnici.
+              Škola novinarstva za decu i mlade – stepenik do kompetencija za savremeno društvo, posetilo je prostor <span class="workshop-title">Kreativne Jazbine</span> i sa svojim mentorom Natašom Turuntsaš i domaćinom Ivanom Knežević pozabavili su se i upoznali sa procesom kreativnog nastanka i inspiracije umetnika. Mladi budući novinari su razgovarali o likovnoj umetnosti, izboru zanimanja, kreativnosti, inicijativi, ali i o društvu, plemenitosti, osećanjima, različitostima i osećajima one dece koja su žrtve socijalnog nasilja. Cela poseta bila je inspirisana ličnim iskustvima domaćina posete i pričama Slađane Parezanović o njihovim izmišljenim a možda i stvarnim vršnjacima i njihovim problemima. Zadatak je bio da mladi novinari naprave priču i snime razgovor sa slikarkom ali da i sami inspirisani temom budu kreativni i okušaju se kao umetnici.
             </p>
           </div>
         </div>
@@ -244,7 +245,6 @@
                     <div class="carousel-item">
                       <img src="../images/Aktivnosti/RelaxZona/07.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -261,9 +261,8 @@
 
   <!-- Google Map -->
   <?php include("gmap.php"); ?>
-  <!-- /Google Map -->
 
 </main>
-<!-- /Main Section -->
 
+<!-- Footer -->
 <?php include("footer.php"); ?>

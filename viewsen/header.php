@@ -16,12 +16,9 @@
 
 <body>
 
-  <!-- Header Section -->
   <header>
 
     <!-- Navbar -->
     <?php include("navbar.php"); ?>
-    <!-- /Navbar -->
 
   </header>
-  <!-- /Header Section -->

@@ -3,27 +3,19 @@
 <?php
 
 require_once '../models/DAO.php';
-
 $dao = new DAO();
-
 $atelje = $dao->selectAtelje();
 
 ?>
 
 <section class="gallery-block compact-gallery">
-
   <div class="container">
-
     <div class="heading pt-5">
-
-      <h3>Galerija SLIKA</h3>
-
+      <h3>Galerije slika</h3>
     </div>
 
     <!-- Gallery -->
-
     <main class="container">
-
       <div class="card-columns gallery-block compact-gallery">
 
         <?php foreach (array_reverse($atelje) as $value) { ?>
@@ -34,25 +26,32 @@ $atelje = $dao->selectAtelje();
 
               <a href="../pictures/<?= $value['image'] ?>" target="_blank"><img src="../pictures/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
 
-                <?php if ($value['sold'] == 0) {
-                  $s = '';
-                } ?>
+                <?php
 
-                <?php if ($value['sold'] == 1) {
+                if ($value['sold'] == 0) {
+                  $s = '';
+                }
+
+                ?>
+
+                <?php
+
+                if ($value['sold'] == 1) {
                   $s = 'PRODATO';
-                } ?>
+                }
+
+                ?>
 
                 <span class="description">
 
                   <span class="description-heading"><?= $value['namesr'] ?></span>
 
                   <span class="description-body"><?= $value['memosr'] ?></span>
+
                   <span class="description-body text-warning"><?= $s ?></span>
 
                 </span>
-
               </a>
-
             </div>
 
           <?php } ?>
@@ -60,12 +59,9 @@ $atelje = $dao->selectAtelje();
         <?php } ?>
 
       </div>
-
     </main>
-    <!-- /Gallery -->
-
   </div>
-
 </section>
 
+<!-- Footer -->
 <?php include("footer.php"); ?>

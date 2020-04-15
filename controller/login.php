@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 include("../models/daoadmin.php");
 $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : "";
@@ -33,3 +34,5 @@ switch ($action) {
     header('location:../views/index.php.');
     break;
 }
+
+?>

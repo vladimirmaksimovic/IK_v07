@@ -1,10 +1,10 @@
 <?php
+
 require_once('../models/db.php');
 
 class DAO
 {
 	private $db;
-
 
 	private $SELECT_ATELJE_BY_ID = "SELECT * FROM atelje WHERE id = ?";
 	private $SELECT_ATELJE_BY_CATEGORY = "SELECT * FROM atelje WHERE category = ?";
@@ -27,6 +27,7 @@ class DAO
 		$statement->bindValue(1, $id);
 		$statement->execute();
 		$result = $statement->fetch();
+
 		return $result;
 	}
 
@@ -36,16 +37,16 @@ class DAO
 		$statement->bindValue(1, $category);
 		$statement->execute();
 		$result = $statement->fetch();
+
 		return $result;
 	}
 
 	public function selectAtelje()
 	{
 		$statement = $this->db->prepare($this->SELECT_ATELJE);
-
 		$statement->execute();
-
 		$result = $statement->fetchAll();
+
 		return $result;
 	}
 
@@ -53,7 +54,6 @@ class DAO
 	{
 		$statement = $this->db->prepare($this->DELETE_ATELJE_BY_ID);
 		$statement->bindValue(1, $id);
-
 		$statement->execute();
 	}
 
@@ -67,7 +67,6 @@ class DAO
 		$statement->bindValue(5, $memoen);
 		$statement->bindValue(6, $category);
 		$statement->bindValue(7, $sold);
-
 		$statement->execute();
 	}
 	public function updateAteljeById($nameen, $namesr, $memoen, $memosr, $category, $sold, $id)
@@ -80,7 +79,6 @@ class DAO
 		$statement->bindValue(5, $category);
 		$statement->bindValue(6, $sold);
 		$statement->bindValue(7, $id);
-
 		$statement->execute();
 	}
 }

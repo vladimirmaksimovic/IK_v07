@@ -1,6 +1,7 @@
+<!-- Header -->
 <?php include("header.php"); ?>
 
-<!-- Main Section -->
+<!-- Main -->
 <main class="home pt-5 bg-light container-fluid">
   <div class="row">
 
@@ -9,13 +10,13 @@
       <img src="../images/logo-light-rotate.png" alt="Logo" class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
       <img src="../images/logo-light.png" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
     </section>
-    <!-- /Logo -->
 
     <!-- Gallery -->
     <section class="col-lg-10 home-gallery">
       <div class="gallery-block grid-gallery bg-light">
         <div class="container-fluid">
           <div class="row">
+
             <div class="col-md-6 col-lg-3 item">
               <div class="pb-4">
                 <a href="../views/images.php">
@@ -53,6 +54,7 @@
                 </a>
               </div>
             </div>
+
             <div class="col-md-6 col-lg-3 item">
               <div class="pb-4">
                 <a href="../views/design.php">
@@ -85,6 +87,7 @@
                 </a>
               </div>
             </div>
+
             <div class="col-md-6 col-lg-3 item">
               <div class="pb-4">
                 <a href="../views/glass&ceramics.php">
@@ -122,6 +125,7 @@
                 </a>
               </div>
             </div>
+
             <div class="col-md-6 col-lg-3 item">
               <div class="pb-4">
                 <a href="../views/images.php">
@@ -159,19 +163,18 @@
                 </a>
               </div>
             </div>
+
           </div>
         </div>
       </div>
-  </div>
-  </section>
-  <!-- /Gallery -->
+    </section>
 
   </div>
 </main>
-<!-- /Main Section -->
+
 
 <!-- Google Map -->
 <?php include("gmap.php"); ?>
-<!-- /Google Map -->
 
+<!-- Footer -->
 <?php include("footer.php"); ?>

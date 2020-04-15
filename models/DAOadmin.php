@@ -1,8 +1,11 @@
 <?php
+
 require_once('../models/db.php');
 
 class DAOADMIN
+
 {
+
 	private $db;
 
 	private $SELECT_USERS_BY_ID = "SELECT * FROM user WHERE id = ?";
@@ -19,16 +22,16 @@ class DAOADMIN
 		$statement->bindValue(1, $id);
 		$statement->execute();
 		$result = $statement->fetch();
+
 		return $result;
 	}
 
 	public function selectUsers()
 	{
 		$statement = $this->db->prepare($this->SELECT_USERS);
-
 		$statement->execute();
-
 		$result = $statement->fetchAll();
+
 		return $result;
 	}
 }

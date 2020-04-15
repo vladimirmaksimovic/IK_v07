@@ -1,30 +1,41 @@
+<!-- Header -->
 <?php include("header.php"); ?>
+
 <?php include("navbaredit.php"); ?>
-<?php if (!isset($_SESSION['ses'])) {
-    header('location: index.php');
-} ?>
+
 <?php
+
+if (!isset($_SESSION['ses'])) {
+  header('location: index.php');
+}
+
+?>
+
+<?php
+
 $msg = isset($msg) ? $msg : "";
 
 ?>
 
 <body>
+  <main class="m-2">
+    <div class="pt-5">
+      <h3 class="pt-4">EDIT PICTURE</h3>
+    </div>
 
-    <body>
-        <div class="m-2">
-            <div class="pt-5">
-                <h3 class="pt-4">EDIT PICTURE</h3>
-            </div>
+    <form action="../controller/galery.php" method="POST" enctype="multipart/form-data">
 
-            <form action="../controller/galery.php" method="POST" enctype="multipart/form-data">
-                <img class="newsimage1 mt-2 pt-2" name="image" src="../pictures/<?= $galery['image'] ?>" alt="">
-                <label for="video">Promeni sliku</label>
-                <input type="file" name='image1' id="image1" class="btb btn-info">
+      <img class="newsimage1 mt-2 pt-2" name="image" src="../pictures/<?= $galery['image'] ?>" alt="">
 
-                <input type="hidden" name="id" value="<?= $galery['id'] ?>"><br>
+      <label for="video">Promeni sliku</label>
+      <input type="file" name='image1' id="image1" class="btb btn-info">
 
-                <input type="submit" class="btn btn-primary m-2" name="action" value="UpdatePicture">
-            </form>
+      <input type="hidden" name="id" value="<?= $galery['id'] ?>"><br>
 
-            <?= $msg ?>
-    </body>
+      <input type="submit" class="btn btn-primary m-2" name="action" value="UpdatePicture">
+    </form>
+
+    <?= $msg ?>
+
+  </main>
+</body>
