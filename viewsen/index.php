@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include("header.php"); ?>
+<?php include("../viewsen/header.php"); ?>
 
 <!-- Main -->
 <main class="home pt-5 bg-light container-fluid">

@@ -6,7 +6,7 @@
 
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.php">Početna</a>
       </li>
       <li class="nav-item">
@@ -33,12 +33,11 @@
       <?php if (isset($_SESSION['ses'])) { ?>
 
         <li class="nav-item">
-          <a class="nav-link" href="../controller/logout.php"><span class="workshop-title">Logout</span></a>
+          <a class="nav-link workshop-title" href="../controller/logout.php">Logout</a>
         </li>
 
       <?php } ?>
 
-      </li>
       <li class="nav-item eng">
         <a class="nav-link" href="../viewsen/index.php"> eng </a>
       </li>

@@ -5,7 +5,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.php">Home</a>
       </li>
       <li class="nav-item">
@@ -37,7 +37,6 @@
 
       <?php } ?>
 
-      </li>
       <li class="nav-item eng">
         <a class="nav-link" href="../views/index.php"> srb </a>
       </li>
