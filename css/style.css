@@ -4,6 +4,11 @@ body {
 }
 
 /* Navbar */
+nav {
+  padding-top: 1.7rem !important;
+  padding-bottom: 1.7rem !important;
+}
+
 nav a:hover {
   color: #ffc107 !important;
 }
