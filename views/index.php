@@ -172,7 +172,6 @@
   </div>
 </main>
 
-
 <!-- Google Map -->
 <?php include("gmap.php"); ?>
 
