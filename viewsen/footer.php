@@ -60,7 +60,7 @@
     </button>
   </div>
   <div class="copyright text-center bg-dark text-light w-100">
-    &#169;2019 | Design <span class="extra-space"></span><a href="admin.php">GMVP Solution</a>
+    &#169;2019 | Design <span class="extra-space"></span><a href="../views/admin.php">GMVP Solution</a>
   </div>
 </footer>
 
