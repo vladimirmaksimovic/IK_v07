@@ -47,9 +47,11 @@
       <div class="col-md-4 col-sm-12 text-center pt-1">
         <a href="https://twitter.com/" class="col social-media" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
         <a href="https://www.google.com/intl/sr/gmail/about/" target="_blank" class="col social-media"><i class="fa fa-envelope fa-3x"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" class="col social-media"><i class="fa fa-instagram fa-3x"></i></a>
         <div class="w-100 social-media"></div>
         <a href="https://www.facebook.com/" target="_blank" class="col social-media"><i class="fa fa-facebook-square fa-3x"></i></a>
         <a href="https://www.youtube.com/" class="col social-media" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+        <a href="https://www.pinterest.com/" target="_blank" class="col social-media"><i class="fa fa-pinterest-square fa-3x"></i></a>
       </div>
     </div>
   </div>
