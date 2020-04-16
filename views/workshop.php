@@ -3,7 +3,7 @@
 
 <!-- Main -->
 <main class="workshop pt-5 bg-light">
-  <section class="container">
+  <section class="container pt-5">
     <article class="pt-5 pl-4 pr-4">
       <h1 class="text-center pb-4">
         <span class="workshop-title">Kreativna jazbina</span> (šareni svet mašte i inspiracije)
