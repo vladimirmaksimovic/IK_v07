@@ -23,9 +23,16 @@ nav a:hover {
   text-shadow: 3px 3px 0 #777;
 } */
 
-/* Logo */
+/* Home */
 .logo {
   padding-top: 2.5rem;
+}
+
+.home-slide {
+  display: block;
+  height: 80vh;
+  /* width: 80%; */
+  margin: auto;
 }
 
 /* Cards */
@@ -272,7 +279,7 @@ footer a:hover {
   width: 5px;
 }
 
-/* Responsive */
+/* Media Queries */
 @media (min-width: 36rem) {
   .gallery-block.compact-gallery .item .description {
     opacity: 0;
@@ -294,7 +301,35 @@ footer a:hover {
   }
 }
 
-/* card-columns */
+/* Home Carousel Media Queries */
+@media (max-width: 1400px) {
+  .home-slide {
+    display: block;
+    height: 60vh;
+    /* width: 100%; */
+    margin: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home-slide {
+    display: block;
+    height: 50vh;
+    /* width: 100%; */
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-slide {
+    display: block;
+    height: 40vh;
+    /* width: 100%; */
+    margin: auto;
+  }
+}
+
+/* card-columns Media Queries */
 @media (min-width: 576px) {
   .card-columns {
     column-count: 1;
