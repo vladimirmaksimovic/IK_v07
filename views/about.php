@@ -3,7 +3,7 @@
 
 <!-- Main -->
 <main class="about-me pt-5 bg-light">
-  <section class="container bg-light pb-5">
+  <section class="container bg-light pb-5 pt-5">
     <h1 class="text-center pt-5">Ivana Knežević</h1>
     <div class="container pl-5 pr-5 pt-5">
       <div class="row">
