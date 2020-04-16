@@ -37,7 +37,8 @@ nav a:hover {
 
 /* Cards */
 .card {
-  width: 14.0625rem;
+  /* width: 14.0625rem; */
+  width: 16rem;
   margin: auto;
   border: none;
 }
@@ -48,6 +49,16 @@ nav a:hover {
 
 .card-title {
   padding-top: 1rem;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  background-position: center;
+  background-size: cover;
+  box-shadow: 7px 18px 50px #555;
+  height: 23.75rem;
 }
 
 .card-1 {
@@ -96,16 +107,6 @@ nav a:hover {
   background-image: url("../images/Dizajn.jpg");
   transform: scale(1.04, 1.04);
   color: #ffc107 !important;
-}
-
-.card-1,
-.card-2,
-.card-3,
-.card-4 {
-  background-position: center;
-  background-size: cover;
-  box-shadow: 7px 18px 50px #555;
-  height: 23.75rem;
 }
 
 .card-text {
