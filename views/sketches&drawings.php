@@ -10,8 +10,8 @@ $atelje = $dao->selectAtelje();
 ?>
 
 <!-- Main -->
-<main class="gallery-block compact-gallery">
-  <div class="container">
+<main class="gallery-block compact-gallery pt-5">
+  <div class="container pt-5">
     <div class="heading pt-5">
       <h3>Galerije skica i crteža</h3>
     </div>

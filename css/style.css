@@ -38,7 +38,7 @@ nav a:hover {
 /* Cards */
 .card {
   /* width: 14.0625rem; */
-  width: 16rem;
+  width: 15rem;
   margin: auto;
   border: none;
 }
@@ -156,7 +156,7 @@ nav a:hover {
 }
 
 .gallery-block .heading {
-  margin-bottom: 3.125rem;
+  /* margin-bottom: 3.125rem; */
   text-align: center;
 }
 

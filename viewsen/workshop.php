@@ -4,7 +4,7 @@
 <!-- Main -->
 <main class="workshop pt-5 bg-light">
   <section class="container pt-5">
-    <article class="pt-5 pl-4 pr-4">
+    <article class="pt-5 pl-3 pr-3">
       <h1 class="text-center pb-4">
         Creative burrow (colorful world of imagination and inspiration)
       </h1>
