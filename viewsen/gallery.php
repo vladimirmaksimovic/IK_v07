@@ -23,12 +23,12 @@
       <div class="col-lg-3 col-md-6 col-12 pb-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="text-uppercase card-title">Sculptures</h5>
+            <h5 class="text-uppercase card-title">Sketches & drawings</h5>
             <a href="sketches&drawings.php">
               <div class="card-2"></div>
             </a>
             <div class="card-text text-center">
-              <a href="sculptures.php" class="card-link card-text">More ...</a>
+              <a href="sketches&drawings.php" class="card-link card-text">More ...</a>
             </div>
           </div>
         </div>

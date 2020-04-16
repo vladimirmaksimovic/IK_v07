@@ -13,7 +13,7 @@ $atelje = $dao->selectAtelje();
 <main class="gallery-block compact-gallery">
   <div class="container">
     <div class="heading pt-5">
-      <h3>Gallery GLASS&CERAMICS</h3>
+      <h3>Glass & Ceramics Gallery</h3>
     </div>
 
     <!-- Gallery -->
