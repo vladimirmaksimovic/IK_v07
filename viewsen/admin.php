@@ -9,11 +9,14 @@ if (isset($_SESSION['ses'])) {
 
 ?>
 
+<!-- Main -->
 <main class="container m-5 pt-5 mx-auto">
   <article class="row">
     <div class="col-xs-12 mx-auto">
       <h1 class="display-5 text-uppercase">Ukoliko imate dozvolu za pristup ulogujte se</h1>
       <div class="page-content">
+
+        <!-- Login Form -->
         <form action="../controller/login.php" method="post">
           <div class="form-group">
             <label for="username">User name:</label><br>
@@ -25,6 +28,7 @@ if (isset($_SESSION['ses'])) {
           </div>
           <input type="submit" name="action" value="login">
         </form>
+
       </div>
     </div>
   </article>

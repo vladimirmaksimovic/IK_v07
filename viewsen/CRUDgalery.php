@@ -27,10 +27,14 @@ $category = isset($category) ? $category : "";
 ?>
 
 <body>
+
+  <!-- Main -->
   <main class="m-4">
     <div class="pt-2">
       <h3 class="pt-4 workshop-title">Insert/Edit/Delete</h3>
     </div>
+
+    <!-- CRUD Gallery -->
     <div class="col-md-12">
       <form action="../controller/galery.php" method="POST" enctype="multipart/form-data">
         <hr>

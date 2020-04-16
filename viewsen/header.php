@@ -21,6 +21,7 @@
 
 <body>
 
+  <!-- Header -->
   <header>
 
     <!-- Navbar -->

@@ -1,8 +1,6 @@
 <!-- Header -->
 <?php include("header.php"); ?>
 
-<?php include("navbar.php"); ?>
-
 <!-- Main -->
 <main class="events pt-5 bg-light">
   <section class="container pb-5 section-container">

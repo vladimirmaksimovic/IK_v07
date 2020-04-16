@@ -1,7 +1,7 @@
 <!-- Heeader -->
 <?php include("header.php"); ?>
 
-<!-- Main Section -->
+<!-- Main -->
 <main class="events pt-5 bg-light">
 
   <section class="container pb-5 section-container">

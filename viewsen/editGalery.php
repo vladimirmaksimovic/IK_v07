@@ -21,10 +21,14 @@ $galery = isset($galery) ? $galery : array('id' => '', 'image' => '', 'namesr' =
 ?>
 
 <body>
+
+  <!-- Main -->
   <main class="p-4">
     <div class="pt-5">
       <h3 class="pt-2">EDIT</h3>
     </div>
+
+    <!-- Edit Gallery -->
     <form action="../controller/galery.php" method="get">
       <div class="row">
         <div class="col-lg-3 col-md-12 form-group">

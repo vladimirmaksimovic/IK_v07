@@ -11,7 +11,9 @@
         <div class="card">
           <div class="card-body">
             <h5 class="text-uppercase card-title">Images</h5>
-            <div class="card-1"></div>
+            <a href="images.php">
+              <div class="card-1"></div>
+            </a>
             <div class="card-text text-center">
               <a href="images.php" class="card-link card-text">More ...</a>
             </div>
@@ -22,7 +24,9 @@
         <div class="card">
           <div class="card-body">
             <h5 class="text-uppercase card-title">Sculptures</h5>
-            <div class="card-2"></div>
+            <a href="sketches&drawings.php">
+              <div class="card-2"></div>
+            </a>
             <div class="card-text text-center">
               <a href="sculptures.php" class="card-link card-text">More ...</a>
             </div>
@@ -33,7 +37,9 @@
         <div class="card">
           <div class="card-body">
             <h5 class="text-uppercase card-title">Glass & Ceramics</h5>
-            <div class="card-3"></div>
+            <a href="glass&ceramics.php">
+              <div class="card-3"></div>
+            </a>
             <div class="card-text text-center">
               <a href="glass&ceramics.php" class="card-link card-text">More ...</a>
             </div>
@@ -44,7 +50,9 @@
         <div class="card">
           <div class="card-body">
             <h5 class="text-uppercase card-title">Desing</h5>
-            <div class="card-4"></div>
+            <a href="design.php">
+              <div class="card-4"></div>
+            </a>
             <div class="card-text text-center">
               <a href="design.php" class="card-link card-text">More ...</a>
             </div>

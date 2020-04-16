@@ -16,11 +16,14 @@ $msg = isset($msg) ? $msg : "";
 ?>
 
 <body>
+
+  <!-- Main -->
   <main class="m-2">
     <div class="pt-5">
       <h3 class="pt-4">EDIT PICTURE</h3>
     </div>
 
+    <!-- Edit Picture -->
     <form action="../controller/galery.php" method="POST" enctype="multipart/form-data">
 
       <img class="newsimage1 mt-2 pt-2" name="image" src="../pictures/<?= $galery['image'] ?>" alt="">

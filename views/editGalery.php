@@ -22,6 +22,7 @@ $galery = isset($galery) ? $galery : array('id' => '', 'image' => '', 'namesr' =
 
 <body>
 
+  <!-- Main -->
   <main class="p-4">
     <div class="pt-4">
       <h3 class="pt-2">EDIT</h3>
@@ -29,6 +30,8 @@ $galery = isset($galery) ? $galery : array('id' => '', 'image' => '', 'namesr' =
       <p class="bg-danger"> <?php echo $msg ?> </p>
 
     </div>
+
+    <!-- Edit Gallery -->
     <form action="../controller/galery.php" method="get">
       <div class="row">
         <div class="col-lg-4 col-md-12 form-group">

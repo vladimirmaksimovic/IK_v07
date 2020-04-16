@@ -9,14 +9,15 @@ $atelje = $dao->selectAtelje();
 
 ?>
 
-<section class="gallery-block compact-gallery">
+<!-- Main -->
+<main class="gallery-block compact-gallery">
   <div class="container">
     <div class="heading pt-5">
       <h3>Gallery SCULPTURES</h3>
     </div>
 
     <!-- Gallery -->
-    <main class="container">
+    <section class="container">
       <div class="card-columns gallery-block compact-gallery">
 
         <?php foreach (array_reverse($atelje) as $value) { ?>
@@ -62,9 +63,9 @@ $atelje = $dao->selectAtelje();
         <?php } ?>
 
       </div>
-    </main>
+    </section>
   </div>
-</section>
+</main>
 
 <!-- Footer -->
 <?php include("footer.php"); ?>
