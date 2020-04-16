@@ -2,38 +2,37 @@
   <div class="container">
     <div class="row p-4">
       <div class="col-md-4 col-sm-12">
-        <h3>Mapa sajta</h3>
+        <h3>Site map</h3>
         <ul>
           <li>
-            <a href="index.php"><i class="fa fa-home"></i> Početna</a>
+            <a href="index.php"><i class="fa fa-home"></i> Home</a>
           </li>
           <li>
             <a href="events.php"><i class="fa fa-bicycle" aria-hidden="true"></i>
-              Aktivnosti</a>
+              Acivities</a>
           </li>
           <li>
             <a href="workshop.php" class="workshop-title"><i class="fa fa-paint-brush" aria-hidden="true"></i>
-              Kreativna jazbina</a>
+              Creative Burrow</a>
           </li>
           <li>
             <a href="gallery.php"><i class="fa fa-picture-o" aria-hidden="true"></i>
-              Galerija</a>
+              Gallery</a>
           </li>
           <li>
-            <a href="about.php"><i class="fa fa-address-card-o" aria-hidden="true"></i> O
-              meni</a>
+            <a href="about.php"><i class="fa fa-address-card-o" aria-hidden="true"></i> About me</a>
           </li>
         </ul>
       </div>
       <div class="col-md-4 col-sm-12" id="contact_bg">
-        <h3>Kontakt</h3>
+        <h3>Contact</h3>
         <ul>
-          <li>Adresa:</li>
+          <li>Address:</li>
           <li>
             <i class="fa fa-map-marker" aria-hidden="true"></i> Ljubić kej
             19/13, 32000 Čačak, Srbija
           </li>
-          <li>Telefon:</li>
+          <li>Contact phone:</li>
           <li>
             <i class="fa fa-mobile" aria-hidden="true"></i> +381 (0)64 23 23
             178
@@ -56,11 +55,11 @@
   </div>
   <div class="row p-3 m-0">
     <button type="button" onclick="backToTheFuture()" class="btn btn-outline-light text-light rounded-pill ml-auto to-the-top">
-      Vrh strane
+      Top page
     </button>
   </div>
   <div class="copyright text-center bg-dark text-light w-100">
-    &#169;2019 | Design <span class="extra-space"></span><a href="../views/admin.php">GMVP Solution</a>
+    Copyright &#169;2019 | Design <span class="extra-space"></span><a href="../views/admin.php">GMVP Solution</a>
   </div>
 </footer>
 
