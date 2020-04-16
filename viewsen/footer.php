@@ -54,13 +54,22 @@
       </div>
     </div>
   </div>
-  <div class="row p-3 m-0">
-    <button type="button" onclick="backToTheFuture()" class="btn btn-outline-light text-light rounded-pill ml-auto to-the-top">
+  <div class="row m-0">
+    <ul class="friends">
+      <li><a href="#">Atelje Sivak</a></li>
+      <li><a href="#">NTP Cacak</a></li>
+      <li><a href="#">GMVP Solution</a></li>
+      <li><a href="#">Link 4</a></li>
+      <li><a href="#">Link 4</a></li>
+    </ul>
+  </div>
+  <div class="row m-0 bg-dark copyright">
+    <div class="mx-auto">
+      Copyright &#169;2019 | Design <span class="extra-space"></span><a href="admin.php"><i class="fa fa-envelope fa-1x"></i></a>
+    </div>
+    <button type="button" onclick="backToTheFuture()" class="btn btn-outline-light text-light rounded-pill align-self-end my-auto to-the-top">
       Top page
     </button>
-  </div>
-  <div class="copyright text-center bg-dark text-light w-100">
-    Copyright &#169;2019 | Design <span class="extra-space"></span><a href="../views/admin.php">GMVP Solution</a>
   </div>
 </footer>
 
