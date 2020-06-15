@@ -127,10 +127,11 @@
           </a>
         </div>
         <div class="col-md-12 col-lg-4 item zoom-on-hover">
-          <a class="lightbox" href="../images/KreativnaJazbina/07.jpg" target="_blank">
+          <a class="lightbox" href="../images/KreativnaJazbina/10.jpg" target="_blank">
             <img class="img-fluid image" src="../images/KreativnaJazbina/07.jpg" alt="Slika" />
           </a>
         </div>
+
       </div>
     </div>
   </section>

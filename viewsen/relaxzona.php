@@ -30,13 +30,6 @@
                 <div class="carousel-item">
                   <img src="../images/Aktivnosti/RelaxZona/05.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
-		<div class="carousel-item">
-                <img src="../images/Aktivnosti/RelaxZona/06.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
-                </div>
-                 <div class="carousel-item">
-                <img src="../images/Aktivnosti/RelaxZona/07.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
-                </div>
-
               </div>
             </div>
           </div>

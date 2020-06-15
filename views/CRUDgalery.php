@@ -32,7 +32,7 @@ $category = isset($category) ? $category : "";
 
   <!-- Main -->
   <main class="m-4">
-    <div class="pt-2">
+    <div class="pt-5">
       <h3 class="pt-4 workshop-title">Insert/Edit/Delete</h3>
     </div>
 

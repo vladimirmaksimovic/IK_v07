@@ -14,8 +14,10 @@
   <script src="../js/active.js"></script>
   <script src="../js/main.js"></script>
   <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" id="resonant-google-fonts-css" href="https://fonts.googleapis.com/css?family=Overpass:400,400i,600,600i,700,700i&amp;subset=latin%2Clatin-ext" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  <link rel="stylesheet" id="resonant-google-fonts-css"
+    href="https://fonts.googleapis.com/css?family=Overpass:400,400i,600,600i,700,700i&amp;subset=latin%2Clatin-ext"
+    type="text/css" media="all" />
   <title>Sivak</title>
 </head>
 

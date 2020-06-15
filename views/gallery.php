@@ -12,7 +12,7 @@
     </section>
 
     <!-- Cards -->
-    <section class="pt-5 pb-5 container col-lg-9 col-md-12">
+    <section class="pb-5 pt-5 container col-lg-9 col-md-12 cards-container">
       <div class="row text-center">
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">

@@ -1,9 +1,10 @@
+/*** GLOBAL STYLE ***/
 body {
   background-color: #fff;
   font-family: "Overpass", Times, serif;
 }
 
-/* Navbar */
+/*** NAVBAR ***/
 nav {
   padding-top: 1.7rem !important;
   padding-bottom: 1.7rem !important;
@@ -17,13 +18,7 @@ nav a:hover {
   opacity: 0.8;
 }
 
-/* .navbar-brand {
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  text-shadow: 3px 3px 0 #777;
-} */
-
-/* Home */
+/*** HOME ***/
 .logo {
   padding-top: 2.5rem;
 }
@@ -31,13 +26,11 @@ nav a:hover {
 .home-slide {
   display: block;
   height: 80vh;
-  /* width: 80%; */
   margin: auto;
 }
 
-/* Cards */
+/*** CARDS ***/
 .card {
-  /* width: 14.0625rem; */
   width: 15rem;
   margin: auto;
   border: none;
@@ -59,6 +52,7 @@ nav a:hover {
   background-size: cover;
   box-shadow: 7px 18px 50px #555;
   height: 23.75rem;
+  transition: all 0.3s ease-in;
 }
 
 .card-1 {
@@ -123,13 +117,14 @@ nav a:hover {
   color: #ffc107 !important;
 }
 
-/* Events */
+.card-img-top {
+  border-radius: 0;
+}
 
-/* Events Carousel */
+/** CAROUSEL **/
 .mySlides {
   display: block;
   height: 55vh;
-  /*  width: 100%;*/
 }
 
 .inner {
@@ -144,19 +139,18 @@ nav a:hover {
   transform: scale(1.2);
 }
 
-/* Workshop */
+/*** WORKSHOP ***/
 .workshop-title {
   text-transform: uppercase;
 }
 
-/* Gallery */
+/*** GALLERY ***/
 .gallery-block {
   padding-bottom: 3.75rem;
   padding-top: 2.45rem;
 }
 
 .gallery-block .heading {
-  /* margin-bottom: 3.125rem; */
   text-align: center;
 }
 
@@ -217,12 +211,13 @@ nav a:hover {
   background: none !important;
 }
 
-/* About Me */
+/*** ABOUT ME ***/
 .about-me-img {
   padding: 0 0 1rem 0;
+  width: 100%;
 }
 
-/* Google Map */
+/*** GOOGLE MAP ***/
 .gmap-canvas,
 iframe {
   width: 100%;
@@ -230,7 +225,7 @@ iframe {
   border: none;
 }
 
-/* Footer */
+/*** FOOTER ***/
 footer {
   background-color: #555;
   color: #fff;
@@ -254,15 +249,31 @@ footer a:hover {
   text-decoration: none;
 }
 
-.friends {
+.friends-and-family {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   list-style-type: none;
   margin: auto;
 }
 
-.friends > li {
+.friends-and-family > li {
   padding: 1rem 2.5rem;
+}
+
+.footer-logo {
+  height: 7rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.footer-logo:hover {
+  /* background-color: rgba(255, 193, 7, 0.6); */
+  background-color: #ffc107;
+}
+
+.design-team-logo {
+  height: 3.5rem;
 }
 
 .social-media {
@@ -290,7 +301,14 @@ footer a:hover {
   width: 5px;
 }
 
-/* Media Queries */
+/*** CMS STYLES ***/
+.newsimage1 {
+  width: 6.25rem;
+}
+
+/*** MEDIA QUERIES ***/
+
+/* min-width: 576px */
 @media (min-width: 36rem) {
   .gallery-block.compact-gallery .item .description {
     opacity: 0;
@@ -306,69 +324,72 @@ footer a:hover {
   }
 }
 
+/* min-width: 992px */
 @media (min-width: 62rem) {
   .about-me-img {
     padding: 0 1rem 0.5rem 0;
+    width: 50%;
+  }
+
+  .cards-container {
+    margin-top: 1.5rem;
   }
 }
 
-/* Home Carousel Media Queries */
-@media (max-width: 1400px) {
+/** HOME CAROUSEL **/
+
+/* max-width: 1400px */
+@media (max-width: 87.5rem) {
   .home-slide {
     display: block;
     height: 60vh;
-    /* width: 100%; */
     margin: auto;
   }
 }
 
-@media (max-width: 1200px) {
+/* max-width: 1200px */
+@media (max-width: 75rem) {
   .home-slide {
     display: block;
-    height: 50vh;
-    /* width: 100%; */
     margin: auto;
   }
 }
 
-@media (max-width: 768px) {
+/* max-width: 768px */
+@media (max-width: 48rem) {
   .home-slide {
     display: block;
     height: 40vh;
-    /* width: 100%; */
     margin: auto;
   }
 }
 
-/* card-columns Media Queries */
-@media (min-width: 576px) {
+/** CARD COLUMNS **/
+
+/* min-width: 576px */
+@media (min-width: 36rem) {
   .card-columns {
     column-count: 1;
   }
 }
 
-@media (min-width: 768px) {
+/* min-width: 768px */
+@media (min-width: 48rem) {
   .card-columns {
     column-count: 2;
   }
 }
 
-@media (min-width: 992px) {
+/* min-width: 992px */
+@media (min-width: 62rem) {
   .card-columns {
     column-count: 3;
   }
 }
 
-@media (min-width: 1200px) {
+/* min-width: 1200px */
+@media (min-width: 75rem) {
   .card-columns {
     column-count: 3;
   }
-}
-
-.card-img-top {
-  border-radius: 0;
-}
-
-.newsimage1 {
-  width: 100px;
 }

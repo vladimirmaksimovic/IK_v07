@@ -12,12 +12,12 @@
     </section>
 
     <!-- Cards -->
-    <section class="pt-5 pb-5 container col-lg-9 col-md-12">
+    <section class="pb-5 pt-5 container col-lg-9 col-md-12 cards-container">
       <div class="row text-center">
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">
             <div class="card-body bg-light">
-              <h5 class="text-uppercase card-title">Images</h5>
+              <h5 class="text-uppercase card-title pb-4">PAINTINGS</h5>
               <a href="images.php">
                 <div class="card-1"></div>
               </a>
@@ -30,7 +30,7 @@
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">
             <div class="card-body bg-light">
-              <h5 class="text-uppercase card-title">Sketches & drawings</h5>
+              <h5 class="text-uppercase card-title">SKETCHES AND DRAWINGS</h5>
               <a href="sketches&drawings.php">
                 <div class="card-2"></div>
               </a>
@@ -43,7 +43,7 @@
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">
             <div class="card-body bg-light">
-              <h5 class="text-uppercase card-title">Glass & Ceramics</h5>
+              <h5 class="text-uppercase card-title pb-4">GLASS AND CERAMICS</h5>
               <a href="glass&ceramics.php">
                 <div class="card-3"></div>
               </a>
@@ -56,11 +56,11 @@
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">
             <div class="card-body bg-light">
-              <h5 class="text-uppercase card-title">Desing</h5>
+              <h5 class="text-uppercase card-title pb-4">DESIGN</h5>
               <a href="design.php">
                 <div class="card-4"></div>
               </a>
-              <div class="card-text text-center">
+              <div class="card-text text-ceter">
                 <a href="design.php" class="card-link card-text">More ...</a>
               </div>
             </div>

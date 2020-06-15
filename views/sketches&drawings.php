@@ -1,4 +1,4 @@
-<!-- Header -->
+﻿<!-- Header -->
 <?php include("header.php"); ?>
 
 <?php
@@ -13,7 +13,7 @@ $atelje = $dao->selectAtelje();
 <main class="gallery-block compact-gallery pt-5">
   <div class="container pt-5">
     <div class="heading pt-5">
-      <h3>Galerije skica i crteža</h3>
+      <h3>Galerije SKICA I CRTEŽA</h3>
     </div>
 
     <!-- Gallery -->

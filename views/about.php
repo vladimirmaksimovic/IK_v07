@@ -65,52 +65,42 @@
               i inostranstvu.
             </p>
             <ul>
-              <strong>Samostalne izložbe</strong>:
+              <strong>Samostalne izložbe:</strong>:
               <li>
-                <strong>Oktobar 2007.</strong> Izložba slika u OŠ "Ivo Andrić"
-                Pranjani - Srbija
+                <strong>Maj 2019. </strong> Stalna postavka dela opusa u prostorijama START UP centra Čačak
               </li>
               <li>
-                <strong>April 2009.</strong> Izložba slika i pastela, Galerija
-                "Brod" Niš - Srbija
+                <strong>Mart 2019. </strong> IKafe Moment, Ul. Dr. Dragiše Mišovića 41, 32000 Čačak
               </li>
               <li>
-                <strong>Februar 2010.</strong> Izložba slika - kombinovana
-                tehnika, Hol bioskopa "Prag" Čačak - Srbija
+                <strong>Jun-jul 2018. </strong> Centar za kulturu Grocka, Majevička 9, 11306 Grocka
               </li>
               <li>
-                <strong>Oktobar 2017.</strong> Likovna Galerija ULUV-a "Naša
-                Galerija", Vrbas
+                <strong>April-maj 2018. </strong> (Izložba na dve lokacije) Gastro bar 20/44, Skadarska 40b i Beti Ford, Zetska 2, Beograd
               </li>
               <li>
-                <strong>Decembar 2017.</strong> Noćna galerija Petak, Beograd
+                <strong>Mart 2018. </strong> Memorijalna Galerija „Dušan Starčević“, Smederevska Palanka
               </li>
               <li>
-                <strong>Januar-februar 2018.</strong> Likovni salon Doma
-                kulture, Čačak
+                <strong>Mart-april 2018. </strong> Galerija Meander, Apatin
               </li>
               <li>
-                <strong>Mart 2018.</strong> Memorijalna Galerija "Dušana
-                Starčevića" Smederevska Palanka
+                <strong>Januar-februar 2018. </strong> Likovni salon Doma kulture, Čačak
               </li>
               <li>
-                <strong>Mart-april 2018.</strong> Galerija Meander, Apatin
+                <strong>Decembar 2017. </strong> Noćna galerija Petak, Beograd
               </li>
               <li>
-                <strong>April-maj 2018.</strong> (Izložba na dve lokacije)
-                Gastro bar 20/44, Skadarska 40b i Beti Ford, Zetska 2, Beograd
+                <strong>Oktobar 2017. </strong> Likovna Galerija ULUV-a „Naša Galerija“, Vrbas
               </li>
               <li>
-                <strong>Jun-jul 2018.</strong> Centar za kulturu Grocka,
-                Majevička 9. 11306 Grocka
+                <strong>Februar 2010. </strong> Izložba slika - kombinovana tehnika, Hol bioskopa "Prag" Čačak - Srbija
               </li>
               <li>
-                <strong>Mart 2019.</strong> Kafe Moment, Ul. Dr. Dragiše
-                Mišovića 41. 32000 Čačak
+                <strong>April 2009. </strong> Izložba slika i pastela, Galerija „Brod“ Niš - Srbija
               </li>
               <li>
-                <strong>Maj 2019.</strong> Stalna postavka dela opusa u
-                prostorijama START UP centra Čačak
+                <strong>Oktobar 2007. </strong> Izložba slika u OŠ „Ivo Andrić“ Pranjani - Srbija
               </li>
             </ul>
           </div>

@@ -9,16 +9,16 @@
         <a class="nav-link" href="index.php">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="events.php">Events</a>
+        <a class="nav-link" href="events.php">Activities</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link workshop-title" href="workshop.php">Creative Burrow</a>
+        <a class="nav-link workshop-title" href="workshop.php">CREATIVE BURROW</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="gallery.php">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.php">About me</a>
+        <a class="nav-link" href="about.php">About us </a>
       </li>
 
       <?php if (isset($_SESSION['ses'])) { ?>

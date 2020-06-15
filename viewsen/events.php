@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include("header.php"); ?>
+<?php include "header.php"; ?>
 
 <!-- Main -->
 <main class="events pt-5 bg-light">
@@ -8,45 +8,189 @@
       Activities
     </h1>
     <div class="container-fluid">
-      <div class="row align-items-center pb-4">
+      <div class="row align-items-center pb-3 pt-3">
         <div class="col-12 col-lg-6">
           <div class="bg-light">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="../images/Aktivnosti/GracanicaNotrDam/011.jpg" class="mySlides img-fluid mx-auto" alt="Image" />
+                  <img src="../images/Aktivnosti/GracanicaNotrDam/011.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/GracanicaNotrDam/021.jpg" class="mySlides img-fluid mx-auto" alt="Tok diptih kombinoovana tehnika na lesonitu" />
+                  <img src="../images/Aktivnosti/GracanicaNotrDam/021.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/GracanicaNotrDam/031.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/GracanicaNotrDam/031.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/GracanicaNotrDam/041.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/GracanicaNotrDam/041.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/GracanicaNotrDam/05.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/GracanicaNotrDam/05.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Grad kombinovana tehnika na šperploči" />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-6">
-          <h3 class="text-center pt-4">Gračanica- Notr Dam</h3>
+          <h3 class="text-center pt-4">Gračanica- Notre Dame</h3>
           <p class="text-justify">
-            On July 30, 2019, the Notr Dam Summer Art Workshop - Gracanica was held at the Nadezda Petrovic Art Gallery. By highlighting these two buildings, the workshop highlighted the value of the entire world cultural heritage, which, unfortunately, is often threatened by the history of war, neglect, natural disasters and other circumstances. This workshop gave the children a close encounter with the original paintings of Nadežda Petrović - Gracanica from 1913 and the painting of Božidar Prodanović - Our Lady of the Church from 1953. The workshops were intended for children and adults alike, but the largest number of visitors and actors of this event was between 5 and 12 years old. The reason for the workshops was the support to the Notre Dam church in Paris, which was destroyed in the fire, so the motive for the painting was the famous cathedral, but as a pandemic to this building, also Gracanica, the pearl of Serbian medieval architecture. About 40 visitors to the gallery participated in this workshop. The curator of the gallery was Dragana Bozovic, and the workshop was coordinated by the painter Ivana Knezevic.
+            The Summer Art Workshop Gračanica - Notre Dame was held at the Art Gallery “Nadežda Petrović“ on 30 July
+            2019. Having accentuated these two buildings in particular, the workshop suggested the value of the entire
+            world cultural heritage, that is unfortunately often threatened throughout history by the peril of war,
+            neglect, natural disasters and other circumstances. This workshop gave the children a close encounter with
+            the original Nadežda Petrović’s painting - <strong>Gračanica </strong> from 1913 as well as with the Božidar
+            Prodanović’s painting – <strong>Notre Dame</strong> Cathedral from 1953. The workshops were intended for
+            both children and adults, but the most of the visitors and participants were children between 5 and 12 years
+            of age. The motive for this and few others workshops was giving the support to Notre Dame Cathedral of Paris
+            that was destroyed in a fire, so the motive for painting was this famous cathedral along with its
+            equivalent, the Gračanica monastery, the pearl of Medieval Serbian architecture. Around forty visitors
+            participated in this workshop. The expert guidance was held by the gallery curator Dragana Božović whereas
+            the workshop was coordinated by the painter Ivana Knežević.
           </p>
         </div>
       </div>
 
       <hr class="bg-white" />
 
-      <div class="row align-items-center pt-3 pb-3">
+      <div class="row align-items-center pb-3 pt-3">
         <div class="col-12 col-lg-6">
-          <h3 class="text-center">CREATIVE LAMB in the park</h3>
+          <h3 class="text-center"><span class="workshop-title">CREATIVE BURROW </span> in the park</h3>
           <p class="text-justify">
-            In addition to classes in CREATIVE LAMP and work in the studio itself, children often go out in nature. As part of the workshop, small creatives spend a lot of time in a nearby park, where all the senses enjoy the green of the trees, the variety of visitors on a sunny day and the murmur of water, they observe and perceive the world around them. In the field, they draw and paint but also collect material from nature from which they can make toys and usable objects. They thus enhance environmental awareness and respect for nature, breathe clean air, play, talk about colors, textures, line and light, how healthy it is to be active and respect nature. Through conversation and examples in the field, they raise the awareness that we have come to love a great organism that makes and changes an ecosystem. They are introduced to a wide variety of plants, run, hide and jump.
+            Besides attending lessons at <span class="workshop-title">CREATIVE BURROW </span> and work in the very
+            studio, the children often go out in nature. As part of the workshop, the little creatives spend a lot of
+            time in the nearby park, where they enjoy with all their senses the greenery of trees, the variety of
+            visitors, a sunny day and the murmur of water, they observe and perceive the world around them. They draw
+            and paint on the spot, but they also collect material from nature out of which they can make toys and usable
+            items. In this way they increase their environmental awareness and their respect for nature, they breathe
+            fresh air, play, talk about colours, textures, line and light, how healthy it is to be active and to respect
+            nature. Through a conversation and the examples in the field, they expand the awareness of the fact that we
+            all are a part of a big organism that makes part of and makes changes in an ecosystem. They get acquainted
+            with a vast variety of plants, they run, hide and jump.
+          </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-light">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img src="../images/Aktivnosti/KreativciUParku/02.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/KreativciUParku/03.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/KreativciUParku/04.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/KreativciUParku/n1.png" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/KreativciUParku/n2.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/KreativciUParku/n3.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/KreativciUParku/n4.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <hr class="bg-white" />
+    </div>
+
+    <div class="container-fluid">
+      <div class="row align-items-center pb-3 pt-3">
+        <div class="col-12 col-lg-6">
+          <div class="bg-light">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../images/Aktivnosti/LikovnaRadionica/01.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slika" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/LikovnaRadionica/02.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/LikovnaRadionica/03.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/LikovnaRadionica/04.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/LikovnaRadionica/05.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/LikovnaRadionica/06.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <h3 class="text-center pt-4">Creative children at the Art Gallery Nadežda Petrović</h3>
+          <p class="text-justify">
+            The members of <span class="workshop-title">CREATIVE BURROW </span> and the fellow citizens inspired by an
+            exhibition at the Art Gallery “Nadežda Petrović“ made their little artworks that revealed the paintings’
+            stories. The exhibition setting was named <span class="workshop-title">PAINTINGS AND THEIR SECRETS</span>
+            and it’s hosted Ivana Knežević and her little artists two times already. One workshop was held in the
+            beautiful garden of the gallery. The children and their parents drew and made some new paintings and
+            finished some in advance printed segments of the great masters’ paintings. The creative children answered,
+            helped by their imagination, the question what thing could be hidden in a given painting, and they got
+            acquainted, through the expert guidance of the exhibition curator Daniljel Mikić, with the original artworks
+            exhibited in the gallery. This wonderful mass gathering happened on a beautiful sunny day so, as a
+            consequence, the used colours were shining with happiness and positive energy. The second workshop was held
+            in the gallery, but this time the techniques were different. The participants dealt with collage and used
+            dry colours to finish the work. Both workshops were exceptionally attended.
+          </p>
+        </div>
+      </div>
+
+      <hr class="bg-white" />
+
+      <div class="row align-items-center pb-3 pt-3">
+        <div class="col-12 col-lg-6">
+          <h3 class="text-center">Kindergarten wall painting (2018)</h3>
+          <p class="text-justify">
+            In mid-2018, to the author's great pleasure, an invitation arrived from the owner of a kindergarten to
+            revive and paint the interior of a big vintage house where a day care centre for the youngest was about to
+            be opened. The space itself is a renovated house from the middle of the 20th century. It was in a good
+            condition but required a special decoration and some authentic furniture. The inspiration was there, a
+            meadow scene appeared on the main wall of the living room. In the big shade of an oak that is stretching
+            across the ceiling in stucco relief, a small family of owls is also depicted. A variety of bugs and birds
+            enrich the meadow and the sunny day while on the opposite end of the wall stand some sunflowers with their
+            occupants, grasshoppers and ants. The meadow is richly depicted, there are lots of medicinal herbs, ferns
+            and mushrooms. The insects are stylized and illustrated in a way to give space to the teachers to tell a
+            toddler each time new story supported by a picture from that wall. The little eyes of all bugs are
+            two-dimensional and bulging so the children can touch them.
           </p>
         </div>
         <div class="col-12 col-lg-6">
@@ -54,19 +198,23 @@
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="../images/Aktivnosti/KreativciUParku/01.jpg" class="mySlides img-fluid mx-auto" alt="Image" />
+                  <img src="../images/Aktivnosti/MaloStopalo/01.jpg" class="mySlides img-fluid mx-auto" alt="Slika" />
+                </div>
+
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/MaloStopalo/n1.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/KreativciUParku/02.jpg" class="mySlides img-fluid mx-auto" alt="Tok diptih kombinoovana tehnika na lesonitu" />
+                  <img src="../images/Aktivnosti/MaloStopalo/n2.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/KreativciUParku/03.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/MaloStopalo/n3.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/KreativciUParku/04.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/MaloStopalo/n4.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/KreativciUParku/05.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/MaloStopalo/n5.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
               </div>
             </div>
@@ -75,51 +223,69 @@
       </div>
     </div>
 
-    <hr class="bg-white" />
+    <div class="container-fluid">
+      <hr class="bg-white" />
+    </div>
 
     <div class="container-fluid">
-      <div class="row align-items-center pt-3 pb-3">
+      <div class="row align-items-center pb-3 pt-3">
         <div class="col-12 col-lg-6">
           <div class="bg-light">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="../images/Aktivnosti/LikovnaRadionica/01.jpg" class="mySlides img-fluid mx-auto" alt="Image" />
+                  <img src="../images/Aktivnosti/MladiNovinar/01.jpg" class="mySlides img-fluid mx-auto" alt="Slika" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/LikovnaRadionica/02.jpg" class="mySlides img-fluid mx-auto" alt="Tok diptih kombinoovana tehnika na lesonitu" />
+                  <img src="../images/Aktivnosti/MladiNovinar/02.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/LikovnaRadionica/03.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/MladiNovinar/03.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/LikovnaRadionica/04.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/MladiNovinar/04.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/LikovnaRadionica/05.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/LikovnaRadionica/06.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/MladiNovinar/05.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-6">
-          <h3 class="text-center pt-4">Creatives at the Art Gallery Nadezda Petrovic</h3>
+          <h3 class="text-center pt-4">The young future journalists’ visit</h3>
           <p class="text-justify">
-            The participants of the Creative Burrow and fellow citizens inspired by the exhibition at the Nadezda Petrovic Art Gallery have done their little artwork that has revealed the stories of the paintings. The exhibition exhibition entitled PICTURES AND THEIR SECRETS hosted Ivana Knezevic and her small artists twice. One workshop was held in the beautiful space of the gallery courtyard. The children and their parents were drawing and painting and painting already printed segments of paintings by the great masters. The creators imaginatively answered the question of what this painting might be hiding, and with the expert guidance of the curator of the exhibition, Danilo Mikić, they got to know the original works of art placed in the gallery. The wonderful mass gathering was followed by a beautiful sunny day, so the colors used were illuminated with happiness and positive energy. For the second time, the creators in the gallery themselves had a workshop, but their techniques were changed, they worked on collage and used dry colors to finish the work. Both workshops were extremely attended.
+            The attendees of the School of Journalism for Children and Young, a step towards the competencies for
+            contemporary society, visited the CREATIVE BURROW’s venue and with their mentor Nataša Turuntaš and our host
+            Ivan Knežević dealt and became acquainted with the creative process of making an art work and of getting
+            inspiration in general. The young future journalists talked about fine arts, choosing of a profession,
+            creativity, initiative, but also about society, nobility, feelings, differences and feelings of those
+            children that are victims of social violence. The whole visit was inspired by the personal experiences of
+            the host Ivana Knežević on one side and the author of the collection of stories about peer violence Slađana
+            Parezanović on the other side, whose stories are about her fictional, but possibly real characters, the
+            peers of our young journalists, and their problems. The task for the young journalists was to write a story
+            and record the conversation with the painter, but also to be creative and give painting a try, inspired by
+            this theme.
           </p>
         </div>
       </div>
 
       <hr class="bg-white" />
 
-      <div class="row align-items-center pt-3 pb-3">
+      <div class="row align-items-center pb-3 pt-3">
         <div class="col-12 col-lg-6">
-          <h3 class="text-center">2018 Kindergarten Painting.</h3>
+          <h3 class="text-center">Presentation of the City of Čačak at the Belgrade Tourism Fair (2020)</h3>
           <p class="text-justify">
-            In mid-2018, the author's great pleasure was the invitation of the owner of a private kindergarten for the author to revive and paint the space of a large antique house where a lounge for the youngest should open. The space itself is a renovated house that was built in the middle of the 20th century, the space was in good condition but required special decoration and authenticity of mobile phones. Inspiration was not missing, a meadow scene appeared on the main wall of the living room. In the great shade of the oak that stretched across the ceiling in stucco relief, a small family of owls was also painted. Meadows and sunny days were enriched by a variety of bugs and birds and on the opposite end of the wall stood susuncokrets with their occupants, grasshoppers and ants. The meadow is richly painted, with lots of herbs, ferns and mushrooms. The insects are stylized and illustrated to give educators the space to tell a toddler each time a new story illustrated by a painting on the wall. The eyes of all bugs are two-dimensional and bulging so that the youngest can touch them.
+            The artwork of Ivana Knežević, a prominent artist from Čačak, was also introduced at the stand of Western
+            Serbia at the Belgrade Tourism Fair in February 2020 where she was present in person. On that occasion, she
+            was depicting symbols of Čačak on pendants righ there at the stand and she was giving them away to the
+            passers-by and visitors of the stand. Ivana was also wearing the dress that she had painted by hand. It’s
+            got portraits of some famous people from Čačak – the painter Nadežda Pertović, the poet Vladislav Petković
+            Dis, the duke Stepa Stepanović, the musicians Bora Đorđević and Radomir Mihailović Točak, the actress Sonja
+            Savić - and the images of some tourist attractions of the city of Čačak and its surroundings. An exceptional
+            attendance at the stand attracted the expert public’s attention. The fusion of a positive energy and the
+            exciting destinations of Čačak and its surroundings attracted visitors of the fair, among which Ivana drew
+            the children’s attention in particular.
           </p>
         </div>
         <div class="col-12 col-lg-6">
@@ -127,22 +293,20 @@
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="../images/Aktivnosti/MaloStopalo/01.jpg" class="mySlides img-fluid mx-auto" alt="Image" />
+                  <img src="../images/Aktivnosti/SajamTurizma2020/01.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slika" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MaloStopalo/02.jpg" class="mySlides img-fluid mx-auto" alt="Tok diptih kombinoovana tehnika na lesonitu" />
+                  <img src="../images/Aktivnosti/SajamTurizma2020/02.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MaloStopalo/03.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/SajamTurizma2020/03.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MaloStopalo/04.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MaloStopalo/05.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MaloStopalo/06.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/SajamTurizma2020/04.jpg" class="mySlides img-fluid mx-auto"
+                    alt="Slike" />
                 </div>
               </div>
             </div>
@@ -151,114 +315,81 @@
       </div>
     </div>
 
-    <hr class="bg-white" />
-
     <div class="container-fluid">
-      <div class="row align-items-center pt-3 pb-3">
-        <div class="col-12 col-lg-6">
-          <div class="bg-light">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../images/Aktivnosti/MladiNovinar/01.jpg" class="mySlides img-fluid mx-auto" alt="Image" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MladiNovinar/02.jpg" class="mySlides img-fluid mx-auto" alt="Tok diptih kombinoovana tehnika na lesonitu" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MladiNovinar/03.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MladiNovinar/04.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/MladiNovinar/05.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <h3 class="text-center pt-4">Visit of young future journalists</h3>
-          <p class="text-justify">
-            The School of Journalism for Children and Young People - a Degree to Competence for Contemporary Society, visited the CREATIVE JAZBINE space and with their mentor Natasha Turuntsash and host Ivan Knezevic addressed and became acquainted with the process of creative emergence and inspiration of artists. Young future journalists talked about fine arts, choice of profession, creativity, initiative, but also about society, nobility, feelings, differences and feelings of those children who are victims of social violence. The whole visit was inspired by the personal experiences of the host and the stories of Sladjana Parezanovic about their fictional and possibly real peers and their problems. The task was for young journalists to create a story and record a conversation with a painter, but also to be inspired by the subject themselves to be creative and try their hand at being artists.
-          </p>
-        </div>
-      </div>
-
       <hr class="bg-white" />
-
-      <div class="row align-items-center pt-3 pb-3">
-        <div class="col-12 col-lg-6">
-          <h3 class="text-center">Presentation of the city of Cacak at the 2020 Tourism Fair.</h3>
-          <p class="text-justify">
-            At the stand of Western Serbia, the work of Ivana Knezevic as a prominent artist and fellow citizens was presented, she painted the pendants on the stand with symbols of Cacak and distributed it to passers-by and visitors of the stand. The dress that the author wore was hand-painted by famous people who originate from Cacak and the tourist attractions of the city and the surrounding area. The exceptional attendance of the stand attracted the attention of the expert public. The fusion of positive energy and exciting destinations of Cacak and its surroundings attracted visitors to the fair, among which the author particularly attracted the attention of children.
-          </p>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="bg-light">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../images/Aktivnosti/SajamTurizma2020/01.jpg" class="mySlides img-fluid mx-auto" alt="Image" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/SajamTurizma2020/02.jpg" class="mySlides img-fluid mx-auto" alt="Tok diptih kombinoovana tehnika na lesonitu" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/SajamTurizma2020/03.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
-                </div>
-                <div class="carousel-item">
-                  <img src="../images/Aktivnosti/SajamTurizma2020/04.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-    <hr class="bg-white" />
 
     <div class="container-fluid">
-      <div class="row align-items-center pt-3 pb-3">
+      <div class="row align-items-center pb-3 pt-3">
         <div class="col-12 col-lg-6">
           <div class="bg-light">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="../images/Aktivnosti/RelaxZona/01.jpg" class="mySlides img-fluid mx-auto" alt="Image" />
+                  <img src="../images/Aktivnosti/RelaxZona/01.jpg" class="mySlides img-fluid mx-auto" alt="Slika" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/RelaxZona/02.jpg" class="mySlides img-fluid mx-auto" alt="Tok diptih kombinoovana tehnika na lesonitu" />
+                  <img src="../images/Aktivnosti/RelaxZona/02.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/RelaxZona/03.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/RelaxZona/03.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/RelaxZona/04.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/RelaxZona/04.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
                 <div class="carousel-item">
-                  <img src="../images/Aktivnosti/RelaxZona/05.jpg" class="mySlides img-fluid mx-auto" alt="Grad kombinovana tehnika na šperploči" />
+                  <img src="../images/Aktivnosti/RelaxZona/05.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/RelaxZona/06.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/RelaxZona/07.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/RelaxZona/n1.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/RelaxZona/n2.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/RelaxZona/n3.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/RelaxZona/n4.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/Aktivnosti/RelaxZona/n5.jpg" class="mySlides img-fluid mx-auto" alt="Slike" />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-6">
-          <h3 class="text-center pt-4">Painting a wall in the START UP</h3>
+          <h3 class="text-center pt-4">Painting work on the interior <br> at Start up Centre Čačak and at its conference
+            room </h3>
           <p class="text-justify">
-            The project, made in 2019, is a design and painting solution, but also an original technical and decorative solution of the concept in the Start up, relax zone. Ivana Knezevic has made an absolute innovation in wall painting by combining murals and mosaic-like mirrors. The author's already recognizable color filled the space with warmth and positive energy, which was her goal. Stylized spheres represent ideas that will be born and born in start-up communities and their interconnectedness and complementarity, which often happens when experiences and ideas are exchanged. The dimensions of this wall are 4m x 9m and on the wall there is a box with an installation that was ejected from the surface of the wall; The author also solved the color relief side of the conference room wall in Start up.
+            This project dates back to 2019 and it represents a solution in both design and painting, but also a
+            distinctive technical and decorative solution (sgraffito and mosaic techniques combined together) for the
+            relax zone in the Start up Centre venue in Čačak. Ivana Knežević has made an absolute innovation in wall
+            painting by combining mural technique and stacking of mosaic mirror tiles. The author's already recognizable
+            colours filled the space with warmth and positive energy which was her goal in the first place. The stylized
+            spheres represent the ideas that will be born and are being born in start-up communities and their
+            connection and complimentarity that often appears while experiences and ideas are being exchanged. The
+            dimensions of the wall are 4m x 9m and there is an electric cabinet on it. The cabinet sticks out from the
+            wall so it was necessary to hide it and include it in the designer’s solution. Another task was to relate
+            the wall decoration with furniture. The author dealt, also with great success, with the colour chalange of
+            the relief on the wall of the Start up Centre conference room.
           </p>
         </div>
       </div>
-
     </div>
   </section>
 
   <!-- Google Map -->
-  <?php include("gmap.php"); ?>
+  <?php include "gmap.php"; ?>
 
 </main>
 
 <!-- Footer -->
-<?php include("footer.php"); ?>
+<?php include "footer.php"; ?>

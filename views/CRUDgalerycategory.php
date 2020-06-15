@@ -31,7 +31,7 @@ $category = isset($category) ? $category : "";
 
   <!-- Main -->
   <main class="m-4">
-    <div class="pt-2">
+    <div class="pt-5">
       <h3 class="pt-4">INSERT/EDIT/DELETE</h3>
     </div>
 
