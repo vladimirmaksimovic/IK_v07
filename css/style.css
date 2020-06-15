@@ -145,6 +145,11 @@ nav a:hover {
 }
 
 /*** GALLERY ***/
+.logo-gallery {
+  height: 35.8rem;
+  padding: 3rem 0 0 1rem;
+}
+
 .gallery-block {
   padding-bottom: 3.75rem;
   padding-top: 2.45rem;
@@ -342,7 +347,16 @@ footer a:hover {
 @media (max-width: 87.5rem) {
   .home-slide {
     display: block;
-    height: 60vh;
+    height: 75vh;
+    margin: auto;
+  }
+}
+
+/* max-width: 1300px */
+@media (max-width: 81.25rem) {
+  .home-slide {
+    display: block;
+    height: 65vh;
     margin: auto;
   }
 }
@@ -351,6 +365,7 @@ footer a:hover {
 @media (max-width: 75rem) {
   .home-slide {
     display: block;
+    height: 55vh;
     margin: auto;
   }
 }
