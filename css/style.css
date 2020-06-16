@@ -255,15 +255,16 @@ footer a:hover {
 }
 
 .friends-and-family {
+  margin: auto;
+  padding: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
-  margin: auto;
 }
 
 .friends-and-family > li {
-  padding: 1rem 2.5rem;
+  padding: 1.5rem;
 }
 
 .footer-logo {
@@ -332,7 +333,7 @@ footer a:hover {
 /* min-width: 992px */
 @media (min-width: 62rem) {
   .about-me-img {
-    padding: 0 1rem 0.5rem 0;
+    padding: 0 1.5rem 0.5rem 0;
     width: 50%;
   }
 

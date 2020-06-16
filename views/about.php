@@ -64,8 +64,8 @@
               Do 2020. je izlagala na preko četrdeset grupnih izložbi u zemlji
               i inostranstvu.
             </p>
+            <h3>Samostalne izložbe:</h3>
             <ul>
-              <strong>Samostalne izložbe:</strong>:
               <li>
                 <strong>Maj 2019. </strong> Stalna postavka dela opusa u prostorijama START UP centra Čačak
               </li>
@@ -76,7 +76,8 @@
                 <strong>Jun-jul 2018. </strong> Centar za kulturu Grocka, Majevička 9, 11306 Grocka
               </li>
               <li>
-                <strong>April-maj 2018. </strong> (Izložba na dve lokacije) Gastro bar 20/44, Skadarska 40b i Beti Ford, Zetska 2, Beograd
+                <strong>April-maj 2018. </strong> (Izložba na dve lokacije) Gastro bar 20/44, Skadarska 40b i Beti Ford,
+                Zetska 2, Beograd
               </li>
               <li>
                 <strong>Mart 2018. </strong> Memorijalna Galerija „Dušan Starčević“, Smederevska Palanka
@@ -94,7 +95,7 @@
                 <strong>Oktobar 2017. </strong> Likovna Galerija ULUV-a „Naša Galerija“, Vrbas
               </li>
               <li>
-                <strong>Februar 2010. </strong> Izložba slika - kombinovana tehnika, Hol bioskopa "Prag" Čačak - Srbija
+                <strong>Februar 2010. </strong> Izložba slika - kombinovana tehnika, Hol bioskopa „Prag“ Čačak - Srbija
               </li>
               <li>
                 <strong>April 2009. </strong> Izložba slika i pastela, Galerija „Brod“ Niš - Srbija

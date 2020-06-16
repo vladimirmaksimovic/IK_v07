@@ -5,7 +5,7 @@
 <main class="workshop pt-5 bg-light">
   <section class="container pt-5">
     <article class="pt-5 pl-3 pr-3">
-      <h1 class="text-center pb-4">
+      <h1 class="text-center pb-5">
         <span class="workshop-title">Kreativna jazbina</span> (šareni svet mašte i inspiracije)
       </h1>
       <p class="text-justify">
@@ -33,13 +33,13 @@
       </p>
     </article>
   </section>
-
+  <div class="heading pt-5 text-center">
+    <h3>Galerija</h3>
+  </div>
   <!-- Gallery -->
   <section class="gallery-block compact-gallery">
     <div class="container">
-      <div class="heading pt-2">
-        <h3>Galerija</h3>
-      </div>
+
       <div class="row no-gutters">
         <div class="col-md-12 col-lg-4 item zoom-on-hover">
           <a class="lightbox" href="../images/KreativnaJazbina/06.jpg" target="_blank">
