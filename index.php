@@ -1,3 +1,3 @@
 <?php
 
-header("Location: views");
+header("Location: view/view-sr");

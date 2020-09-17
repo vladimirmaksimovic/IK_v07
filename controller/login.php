@@ -1,10 +1,10 @@
 <?php
 
 session_start();
-include("../models/daoadmin.php");
+include("../model/daoadmin.php");
 $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : "";
 
-require_once '../models/DAOadmin.php';
+require_once '../model/DAOadmin.php';
 $dao = new DAOADMIN();
 $user = $dao->selectUsers();
 
@@ -19,10 +19,10 @@ switch ($action) {
         if ($username == $value['name'] && $password == $value['password']) {
           $_SESSION['ses'] = $username;
           echo ($_SESSION['ses']);
-          header('location:../views/CRUDgalery.php');
+          header('location:../view/CRUDgalery.php');
         } else {
           sleep(1);
-          header('location:../views/index.php');
+          header('location:../view/index.php');
         }
       }
     }
@@ -31,8 +31,6 @@ switch ($action) {
   case 'logout':
     session_destroy();;
     $ses = NULL;
-    header('location:../views/index.php.');
+    header('location:../view/index.php.');
     break;
 }
-
-?>

@@ -1,6 +1,6 @@
 <?php
 
-require_once '../models/DAO.php';
+require_once '../model/DAO.php';
 
 $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : "";
 
@@ -18,7 +18,7 @@ switch ($action) {
         $image_tmp = $_FILES['image']['tmp_name'];
         $imageFileType = strtolower(pathinfo($image, PATHINFO_EXTENSION));
         $imageNameType = $id . "." . $imageFileType;
-        $uploaded_image = "../pictures/" . $imageNameType;
+        $uploaded_image = "../images/" . $imageNameType;
 
         $namesr = isset($_REQUEST['namesr']) ? $_REQUEST['namesr'] : "";
         $memosr = isset($_REQUEST['memosr']) ? $_REQUEST['memosr'] : "";
@@ -33,10 +33,10 @@ switch ($action) {
             move_uploaded_file($image_tmp, $uploaded_image);
             $dao = new DAO();
             $dao->insertAtelje($imageNameType, $namesr, $memosr, $nameen, $memoen, $category, $sold);
-            header('location: ../views/CRUDgalery.php');
+            header('location: ../view/CRUDgalery.php');
         } else {
             $msg = 'UPOZORENJE: Slika mora biti u jpg formatu i morate uneti ime na srpskom i engleskom';
-            include '../views/CRUDgalery.php';
+            include '../view/CRUDgalery.php';
         }
         break;
 
@@ -44,16 +44,16 @@ switch ($action) {
         $dao = new DAO();
         $atelje = $dao->selectAteljeById($_REQUEST['id']);
         $picture = $atelje['image'];
-        $delete_picture = "../pictures/" . $picture;
+        $delete_picture = "../images/" . $picture;
         unlink($delete_picture);
         $dao->deleteAteljeById($_REQUEST['id']);
-        header('location: ../views/CRUDgalery.php');
+        header('location: ../view/CRUDgalery.php');
         break;
 
     case 'Edit':
         $dao = new DAO();
         $galery = $dao->selectAteljeById($_REQUEST['id']);
-        include '../views/editGalery.php';
+        include '../view/editGalery.php';
         break;
 
     case 'Save':
@@ -75,19 +75,19 @@ switch ($action) {
         if (!empty($namesr) && !empty($nameen)) {
             $dao = new DAO();
             $dao->updateAteljeById($nameen, $namesr, $memoen, $memosr, $category, $sold, $id);
-            header('location: ../views/CRUDgalery.php');
+            header('location: ../view/CRUDgalery.php');
         } else {
             $msg = "UPOZORENJE: Naziv ne moze biti prazan.  Promena nije uradjena.";
             $dao = new DAO();
             $galery = $dao->selectAteljeById($_REQUEST['id']);
-            include '../views/editGalery.php';
+            include '../view/editGalery.php';
         }
         break;
 
     case 'EditPicture':
         $dao = new DAO();
         $galery = $dao->selectAteljeById($_REQUEST['id']);
-        include '../views/editPicture.php';
+        include '../view/editPicture.php';
         break;
 
     case 'UpdatePicture':
@@ -99,20 +99,20 @@ switch ($action) {
         $image_tmp = $_FILES['image1']['tmp_name'];
         $imageFileType = strtolower(pathinfo($image1, PATHINFO_EXTENSION));
         $imageNameType = $picture;
-        $uploaded_image = "../pictures/" . $imageNameType;
+        $uploaded_image = "../images/" . $imageNameType;
 
         if ($imageFileType == 'jpg') {
             unlink($delete_picture);
             move_uploaded_file($image_tmp, $uploaded_image);
             sleep(5);
-            header('location: ../views/CRUDgalery.php');
+            header('location: ../view/CRUDgalery.php');
         } else {
             $msg = "UPOZORENJE:  Zamena slike nije uspela, slika mora biti u jpg formatu. Pokusajte ponovo.";
-            include '../views/CRUDgalery.php';
+            include '../view/CRUDgalery.php';
         }
         // mislim da ovde nedostaje BRAKE;
 
     default:
-        header("location: ../views/CRUDgalery.php");
+        header("location: ../view/CRUDgalery.php");
         break;
 }
