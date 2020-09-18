@@ -14,7 +14,8 @@
     <!-- Carousel -->
     <!-- 
       Option for redirecting on Gallery page:
-    <a href="../views/gallery.php"> -->
+        <a href="../views/gallery.php">
+    -->
     <section class="col-lg-10 col-md-12 pt-4 pb-4">
       <div id="carouselExampleCaptions" class="carousel slide pt-4 container-fluid" data-ride="carousel">
         <ol class="carousel-indicators">

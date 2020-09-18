@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand display-1" href="index.php">Umetnik</a>
+    <a class="navbar-brand" href="index.php">Umetnik</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -40,7 +40,7 @@
         <?php } ?>
 
         <li class="nav-item eng">
-          <a class="nav-link" href="../view/view-en/index.php"> eng </a>
+          <a class="nav-link" href="../../view/view-en/index.php"> eng </a>
         </li>
       </ul>
     </div>
