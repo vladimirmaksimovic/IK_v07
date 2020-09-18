@@ -35,8 +35,14 @@ nav a:hover {
 
 /*** HOME ***/
 .logo {
+  margin: auto;
   padding-top: 2.5rem;
 }
+
+/* .logo-container,
+.carousel-container {
+  background-color: #fff;
+} */
 
 .home-slide {
   display: block;

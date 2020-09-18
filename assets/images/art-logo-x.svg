@@ -2,11 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="204.94542mm"
@@ -17,7 +19,37 @@
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="art-logo-x.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7241">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7237" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop7239" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7217"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7215" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7241"
+       id="linearGradient7245"
+       x1="-263.03674"
+       y1="24.609171"
+       x2="-58.091328"
+       y2="24.609171"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,8 +58,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="484.15466"
-     inkscape:cy="-176.99195"
+     inkscape:cx="524.1547"
+     inkscape:cy="-491.2777"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +88,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(263.03675,-7.6903191)">
+     transform="translate(273.62009,75.464455)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot853"
@@ -70,16 +102,16 @@
            x="71.428574"
            y="640.58429"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Curlz MT';-inkscape-font-specification:'Curlz MT'" /></flowRegion><flowPara
-         id="flowPara859"></flowPara></flowRoot>    <text
+         id="flowPara859" /></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.79244614px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.54835922"
-       x="-263.83643"
-       y="40.819736"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.79244614px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.95999995;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.54835922"
+       x="-274.41977"
+       y="-42.335037"
        id="text863"><tspan
          sodipodi:role="line"
          id="tspan861"
-         x="-263.83643"
-         y="40.819736"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.79244614px;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.54835922">Art Studio</tspan></text>
+         x="-274.41977"
+         y="-42.335037"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.79244614px;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:0.54835922">Art Studio</tspan></text>
   </g>
 </svg>

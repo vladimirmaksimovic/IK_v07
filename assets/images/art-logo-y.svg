@@ -23,11 +23,11 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="161.87617"
-     inkscape:cy="146.60887"
+     inkscape:cx="401.87619"
+     inkscape:cy="158.03746"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,11 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true"
+     showborder="true"
+     inkscape:showpageshadow="true"
+     borderlayer="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,7 +60,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(177.76723,77.932738)">
+     transform="translate(241.26724,74.908925)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot853"
@@ -70,17 +74,17 @@
            x="71.428574"
            y="640.58429"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Curlz MT';-inkscape-font-specification:'Curlz MT'" /></flowRegion><flowPara
-         id="flowPara859"></flowPara></flowRoot>    <text
+         id="flowPara859" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.79244614px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.54835922"
-       x="-127.18445"
-       y="-144.45877"
+       x="-129.93263"
+       y="-207.9713"
        id="text863"
        transform="rotate(-90.248674)"><tspan
          sodipodi:role="line"
          id="tspan861"
-         x="-127.18445"
-         y="-144.45877"
+         x="-129.93263"
+         y="-207.9713"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.79244614px;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.54835922">Art Studio</tspan></text>
   </g>
 </svg>

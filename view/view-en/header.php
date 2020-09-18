@@ -21,7 +21,7 @@
   <title>Artist Studio</title>
 </head>
 
-<body>
+<body class="bg-light">
 
   <!-- Header -->
   <header>
