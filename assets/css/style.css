@@ -2,6 +2,7 @@
 body {
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
 }
 
 /*** NAVBAR ***/
@@ -38,11 +39,6 @@ nav a:hover {
   margin: auto;
   padding-top: 2.5rem;
 }
-
-/* .logo-container,
-.carousel-container {
-  background-color: #fff;
-} */
 
 .home-slide {
   display: block;
