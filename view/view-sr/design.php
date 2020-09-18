@@ -3,7 +3,7 @@
 
 <?php
 
-require_once '../model/DAO.php';
+require_once '../../model/DAO.php';
 $dao = new DAO();
 $atelje = $dao->selectAtelje();
 
@@ -13,7 +13,7 @@ $atelje = $dao->selectAtelje();
 <main class="gallery-block compact-gallery pt-5">
   <div class="container pt-5">
     <div class="heading pt-5">
-      <h3>Galerije DIZAJNA</h3>
+      <h3>Galerije dizajna</h3>
     </div>
 
     <!-- Gallery -->
@@ -24,42 +24,41 @@ $atelje = $dao->selectAtelje();
 
           <?php if ($value['category'] == 4) {  ?>
 
-            <?php $p = $value['image'] ?>
+            <!-- <?php /* $p = $value['image']  */ ?>
 
             <?php
 
-            if ($value['namesr'] == "Relax zona") {
+            /* if ($value['namesr'] == "Relax zona") {
               $link = "relaxzona.php";
-            }
+            } */
 
             ?>
 
             <?php
 
-            if ($value['namesr'] == "Enterijer vrtića") {
+            /* if ($value['namesr'] == "Enterijer vrtića") {
               $link = "enterijervrtica.php";
-            }
+            } */
 
             ?>
 
             <?php
 
-            if ($value['namesr'] != "Enterijer vrtića" && $value['namesr'] != "Relax zona") {
+            /* if ($value['namesr'] != "Enterijer vrtića" && $value['namesr'] != "Relax zona") {
               $link = "../pictures/$p";
-            }
+            } */
 
-            ?>
+            ?> -->
 
             <div class="card item zoom-on-hover">
 
-              <!-- <a href="../pictures/<?= $value['image'] ?>" target="_blank"><img src="../pictures/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." /> -->
-
-              <a href="<?= $link ?>" target="_blank"><img src="../pictures/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
+              <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
 
                 <?php
 
                 if ($value['sold'] == 0) {
                   $s = '';
+                  $p = "";
                 }
 
                 ?>
@@ -68,9 +67,12 @@ $atelje = $dao->selectAtelje();
 
                 if ($value['sold'] == 1) {
                   $s = 'PRODATO';
+                  $p = "bg-danger";
                 }
 
                 ?>
+
+                <p class="<?php echo $p ?> text-white"><?php echo $s ?></p>
 
                 <span class="description">
 

@@ -3,7 +3,7 @@
 
 <?php
 
-require_once '../models/DAO.php';
+require_once '../../model/DAO.php';
 $dao = new DAO();
 $atelje = $dao->selectAtelje();
 
@@ -26,7 +26,7 @@ $atelje = $dao->selectAtelje();
 
             <div class="card item zoom-on-hover">
 
-              <a href="../pictures/<?= $value['image'] ?>" target="_blank"><img src="../pictures/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
+              <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
 
                 <?php
 
