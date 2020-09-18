@@ -23,45 +23,45 @@ $atelje = $dao->selectAtelje();
         <?php foreach (array_reverse($atelje) as $value) { ?>
 
           <!-- Condition for category value -->
-          <!-- <?php /* if ($value['category'] == 1) { */  ?> -->
+          <?php if ($value['category'] == 1) { ?>
 
-          <div class="card item zoom-on-hover">
+            <div class="card item zoom-on-hover">
 
-            <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
+              <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
 
-              <?php
+                <?php
 
-              if ($value['sold'] == 0) {
-                $s = '';
-                $p = "";
-              }
+                if ($value['sold'] == 0) {
+                  $s = '';
+                  $p = "";
+                }
 
-              ?>
+                ?>
 
-              <?php
+                <?php
 
-              if ($value['sold'] == 1) {
-                $s = 'SOLD';
-                $p = "bg-danger";
-              }
+                if ($value['sold'] == 1) {
+                  $s = 'SOLD';
+                  $p = "bg-danger";
+                }
 
-              ?>
+                ?>
 
-              <p class="<?php echo $p ?> text-white"><?php echo $s ?></p>
+                <p class="<?php echo $p ?> text-white"><?php echo $s ?></p>
 
-              <span class="description">
+                <span class="description">
 
-                <span class="description-heading"><?= $value['nameen'] ?></span>
+                  <span class="description-heading"><?= $value['nameen'] ?></span>
 
-                <span class="description-body"><?= $value['memoen'] ?></span>
+                  <span class="description-body"><?= $value['memoen'] ?></span>
 
-              </span>
-            </a>
-          </div>
+                </span>
+              </a>
+            </div>
+
+          <?php } ?>
 
         <?php } ?>
-
-        <!-- <?php /* } */ ?> -->
 
       </div>
     </section>
