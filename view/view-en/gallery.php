@@ -6,10 +6,9 @@
   <div class="row m-0 pt-5">
 
     <!-- Logo -->
-    <section class="col-lg-2 col-md-12">
-      <img src="../images/logo-light-rotate.png" alt="Logo"
-        class="logo-gallery logo-rotate d-lg-block d-md-none d-sm-none d-none" />
-      <img src="../images/logo-light.png" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
+    <section class="col-lg-2 col-md-12 logo-container">
+      <img src="../../assets/images/art-logo-y.svg" alt="Logo" class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
+      <img src="../../assets/images/art-logo-x.svg" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
     </section>
 
     <!-- Cards -->

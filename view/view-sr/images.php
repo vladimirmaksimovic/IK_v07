@@ -2,7 +2,7 @@
 
 <?php
 
-require_once '../model/DAO.php';
+require_once '../../model/DAO.php';
 $dao = new DAO();
 $atelje = $dao->selectAtelje();
 
@@ -12,7 +12,7 @@ $atelje = $dao->selectAtelje();
 <main class="gallery-block compact-gallery pt-5">
   <div class="container pt-5">
     <div class="heading pt-5">
-      <h3>Galerije SLIKA</h3>
+      <h3>Galerije slika</h3>
     </div>
 
     <!-- Gallery -->
@@ -21,43 +21,48 @@ $atelje = $dao->selectAtelje();
 
         <?php foreach (array_reverse($atelje) as $value) { ?>
 
-          <?php if ($value['category'] == 1) {  ?>
+          <!-- Condition for category value -->
+          <!-- <?php /* if ($value['category'] == 1) { */  ?> -->
 
-            <div class="card item zoom-on-hover">
+          <div class="card item zoom-on-hover">
 
-              <a href="../pictures/<?= $value['image'] ?>" target="_blank"><img src="../pictures/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
+            <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
 
-                <?php
+              <?php
 
-                if ($value['sold'] == 0) {
-                  $s = '';
-                }
+              if ($value['sold'] == 0) {
+                $s = '';
+                $p = "";
+              }
 
-                ?>
+              ?>
 
-                <?php
+              <?php
 
-                if ($value['sold'] == 1) {
-                  $s = 'PRODATO';
-                }
+              if ($value['sold'] == 1) {
+                $s = 'PRODATO';
+                $p = "bg-danger";
+              }
 
-                ?>
+              ?>
 
-                <span class="description">
+              <p class="<?php echo $p ?> text-white"><?php echo $s ?></p>
 
-                  <span class="description-heading"><?= $value['namesr'] ?></span>
+              <span class="description">
 
-                  <span class="description-body"><?= $value['memosr'] ?></span>
+                <span class="description-heading"><?= $value['namesr'] ?></span>
 
-                  <span class="description-body text-warning"><?= $s ?></span>
+                <span class="description-body"><?= $value['memosr'] ?></span>
 
-                </span>
-              </a>
-            </div>
+                <span class="description-body text-warning"><?= $s ?></span>
 
-          <?php } ?>
+              </span>
+            </a>
+          </div>
 
         <?php } ?>
+
+        <!-- <?php /* } */ ?> -->
 
       </div>
     </section>

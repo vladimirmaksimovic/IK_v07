@@ -41,10 +41,10 @@
                 <strong>Mart 2019. </strong>Izložba slika Kraljevo
               </li>
               <li>
-                <strong>Jun-jul 2018. </strong>sajam Beograd
+                <strong>Jun-jul 2018. </strong>Sajam Beograd
               </li>
               <li>
-                <strong>April-maj 2018. </strong>izložba Kraljevo Novi Sad
+                <strong>April-maj 2018. </strong>Izložba Novi Sad
               </li>
               </li>
               <li>

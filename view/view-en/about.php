@@ -13,87 +13,62 @@
 
     <!-- About Me -->
     <section class="bg-light pb-5 col-lg-8 col-md-12">
-      <h1 class="text-center pt-5">Ivana Knežević</h1>
+      <h1 class="text-center pt-5">Artist</h1>
       <div class="container pl-5 pr-5 pt-5">
         <div class="row">
           <div>
-            <img class="img-fluid float-left about-me-img" src="../images/Ivana-Knežević.jpg" alt="Ivana Knežević" />
+            <img class="img-fluid float-left about-me-img" src="../../assets/images/art-img-03.svg" alt="Ivana Knežević" />
             <h3>Biography</h3>
             <p class="text-justify">
-              Ivana Knežević was born on 23 September 1983 in Čačak. She graduated in Graphic Design at the Art School
-              in Niš and after that she graduated in the same city in Interior Design from the Faculty of Humanities. In
-              the course of her university studies, Ivana had a good cooperation with her professors and colleagues from
-              the department of textile design so she did a parallel study of techniques of both textile design and
-              textile painting. She lives and works in Čačak and she is occupied in pedagogical work in the field of
-              pedagogy in art education. Ivana often collaborates with the city cultural institutions and arranges art
-              workshops for children.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolore nihil possimus expedita. Dolorum accusamus inventore assumenda omnis in beatae alias enim, repudiandae ab! Quaerat impedit praesentium labore veritatis aspernatur?
             </p>
             <p class="text-justify">
-              Her approach to design and painting is rather wide and eclectic. Design and painting became the
-              inseparable areas that she is interested in and that she is going to combine in her work. She decorates
-              the ready to use items made of glass, textiles and metals by painting over them. Her spheres of interest
-              are very wide, from the Classical painting to the contemporary expression. She deals with various mural
-              techniques and mosaic. The media she uses to express herself are different. She works on canvas, mediapan,
-              glass and uses materials like as plexiglass, wire, metal, styrofoam, wood, stone. The dimensions of her
-              artwork are different and go from miniatures to large formats. She is one of the founders of the
-              Association for Nursing Science and Creative Thinking "Klikeraši". She is the founder of the association
-              CREATIVE BURROW and a member of the AAAADS (the Association of Applied Arts Artists and Designers of
-              Serbia).
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt explicabo, doloribus, obcaecati iure rerum repudiandae commodi corporis rem nam reprehenderit facilis mollitia! Nulla neque porro molestiae dignissimos? Tempore, culpa unde!
             </p>
             <h3>Current concepts of the author`s work</h3>
             <p class="text-justify">
-              Currently, she is in search for the colour and material in his work that are most convenient to show the
-              changes and metamorphoses of the natural into the artificial and vice versa. She is experimenting with
-              material and with transforming the two-dimensional into the three-dimensional. Ivana uses both natural and
-              artificial materials: wood, wires, plexiglass. She’s got the concept to extend the cycle and increase the
-              number of images of the same narrative. A landscape is an eternal inspiration for her, seen through a
-              broken glass, with geometrization that helps her to find a stylized handwriting of a natural flow and
-              movement. She introduces the light into the large format paintings as well the observer’s physical
-              position relative to a work of art as a way to a new experience that artwork. A game of light, shadows and
-              relief, matte and glossy surfaces unfolds on her works of art.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum voluptate consequuntur dolores, perferendis labore totam sint et, recusandae vero velit dolor cupiditate doloribus illum minima eos? Aliquam consectetur totam minus?
             </p>
             <p>
-              By the year 2020, she has participated in over forty group exhibitions in the country and abroad.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quod sit voluptates sunt aperiam voluptatem laborum ab quibusdam cumque assumenda ipsam ratione nemo labore, vitae nihil odit. Aliquid, suscipit corporis!
             </p>
             <h3>Solo exhibitions:</h3>
             <ul>
               <li>
-                <strong>May 2019 </strong> Permanent setting of a part of the artist`s oeuvre at the premises of START
-                UP Center in Čačak
+                <strong>May 2019 </strong> Setting in Čačak
               <li>
-                <strong>March 2019 </strong> Cafe Moment, 41 Dr. Dragiša Mišović St., Čačak, Serbia
+                <strong>March 2019 </strong> Exhibition Kraljevo
               </li>
               <li>
-                <strong>June-July 2018 </strong> Grocka Cultural Center, 9 Majevička St., Grocka, Serbia
+                <strong>June-July 2018 </strong> Fair Belgrade
               </li>
               <li>
-                <strong>April-May 2018 </strong> Exhibition (at two locations): Gastro bar 20/44, 40b Skadarska St. and
-                Beti Ford, 2 Zetska St., Belgrade, Serbia
+                <strong>April-May 2018 </strong> Exhibition Novi Sad
               </li>
               <li>
-                <strong>March-April 2018 </strong> Meander Gallery, Apatin, Serbia
+                <strong>March-April 2018 </strong> Gallery Smederevska Palanka
               </li>
               <li>
-                <strong>March 2018 </strong> Memorial Gallery "Dušan Starčević", Smederevska Palanka, Serbia
+                <strong>March 2018 </strong> Art colony Arilje
               </li>
               <li>
-                <strong>January-February 2018 </strong> Art Salon of the House of Culture, Čačak, Serbia
+                <strong>January-February 2018 </strong> Exhibition Kraljevo
               </li>
               <li>
-                <strong>December 2017 </strong> Night Gallery "Friday", Belgrade, Serbia
+                <strong>December 2017 </strong> Setting in Čačak
               </li>
               <li>
-                <strong>October 2017 </strong> AAAV Art Gallery "Naša Galerija", Vrbas, Serbia
+                <strong>October 2017 </strong> Fair Belgrade
               </li>
               <li>
-                <strong>February 2010 </strong> Painting Exhibition - combined technique, Hall of cinema "Prague" Čačak,
+                <strong>February 2010 </strong> Painting Exhibition Kragujevac
                 Serbia
               </li>
               <li>
-                <strong>April 2009 </strong> Painting and pastel exhibition, Gallery "Brod" Niš, Serbia
+                <strong>April 2009 </strong> Painting and pastel exhibition Niš
               </li>
               <li>
-                <strong>October 2007 </strong> Painting exhibition at the primary school "Ivo Andrić" Pranjani - Serbia
+                <strong>October 2007 </strong> Art colony Studenica
               </li>
             </ul>
           </div>
