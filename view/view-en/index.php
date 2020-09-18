@@ -46,6 +46,7 @@
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
             </div>
+
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
