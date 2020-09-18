@@ -2,7 +2,7 @@
 <?php include("header.php"); ?>
 
 <!-- Main -->
-<main class="home pt-5 bg-light container-fluid">
+<main class="home pt-5 bg-light container">
   <div class="row pt-4">
 
     <!-- Logo -->
