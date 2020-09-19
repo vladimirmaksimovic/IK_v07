@@ -38,7 +38,7 @@ nav a:hover {
 .home,
 .gallery,
 .about {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .logo {
@@ -56,19 +56,33 @@ nav a:hover {
   color: #000;
 }
 
-/*** CARDS ***/
-.card {
+/*** EVENTS ***/
+/* .accordion {
+  min-height: 100vh;
+} */
+
+.accordion .card {
+  width: 100%;
+  border: none;
+}
+
+/*** GALLERY CARDS ***/
+.gallery .card {
   width: 15rem;
   margin: auto;
   border: none;
 }
 
-.card-body {
+.gallery .card-body {
   padding: 0;
 }
 
-.card-title {
+.gallery .card-title {
   padding-top: 1rem;
+}
+
+.card {
+  border: none;
 }
 
 .card-1,
@@ -136,22 +150,22 @@ nav a:hover {
   padding-bottom: 0.5rem;
 }
 
-.card-link {
+.gallery .card-link {
   color: #000;
 }
 
-.card-link:hover {
+.gallery .card-link:hover {
   color: #ffc107 !important;
 }
 
-.card-img-top {
+.gallery .card-img-top {
   border-radius: 0;
 }
 
 /** CAROUSEL **/
 .mySlides {
   display: block;
-  height: 55vh;
+  /* height: 55vh; */
 }
 
 .inner {

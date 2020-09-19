@@ -15,7 +15,7 @@ $atelje = $dao->selectAtelje();
   <!-- Breadcrumb -->
   <nav class="breadcrumb-container mt-4" aria-label="breadcrumb">
     <ol class="breadcrumb container-fluid bg-transparent justify-content-end">
-      <li class="breadcrumb-item"><a href="../../view/view-sr/gallery.php">Gallery</a></li>
+      <li class="breadcrumb-item"><a href="../../view/view-en/gallery.php">Gallery</a></li>
       <li class="breadcrumb-item active" aria-current="page">Design Gallery</li>
     </ol>
   </nav>

@@ -67,6 +67,7 @@ $atelje = $dao->selectAtelje();
 
                 </span>
               </a>
+
             </div>
 
           <?php } ?>
