@@ -2,8 +2,8 @@
 <?php include("header.php"); ?>
 
 <!-- Main -->
-<main class="home pt-5 bg-light container">
-  <div class="row pt-4">
+<main class="home pt-5 bg-light container-fluid">
+  <div class="row pt-5">
 
     <!-- Logo -->
     <section class="col-lg-2 col-md-12 logo-container">

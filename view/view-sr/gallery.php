@@ -70,10 +70,10 @@
     </section>
   </div>
 
-  <!-- Google Map -->
-  <?php include("gmap.php"); ?>
-
 </main>
+
+<!-- Google Map -->
+<?php include("gmap.php"); ?>
 
 <!-- Footer -->
 <?php include("footer.php"); ?>

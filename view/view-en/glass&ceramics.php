@@ -11,8 +11,17 @@ $atelje = $dao->selectAtelje();
 
 <!-- Main -->
 <main class="gallery-block compact-gallery pt-5">
-  <div class="container pt-5">
-    <div class="heading pt-5">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb-container mt-4" aria-label="breadcrumb">
+    <ol class="breadcrumb container-fluid bg-transparent justify-content-end">
+      <li class="breadcrumb-item"><a href="../../view/view-sr/gallery.php">Gallery</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Glass & Ceramics Gallery</li>
+    </ol>
+  </nav>
+
+  <div class="container">
+    <div class="heading">
       <h3>Glass & Ceramics Gallery</h3>
     </div>
 

@@ -17,7 +17,7 @@
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">
             <div class="card-body bg-light">
-              <h5 class="text-uppercase card-title pb-4">PAINTINGS</h5>
+              <h5 class="text-uppercase card-title pb-4">Paintings</h5>
               <a href="images.php">
                 <div class="card-1"></div>
               </a>
@@ -30,7 +30,7 @@
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">
             <div class="card-body bg-light">
-              <h5 class="text-uppercase card-title">SKETCHES AND DRAWINGS</h5>
+              <h5 class="text-uppercase card-title">Sketches And Drawings</h5>
               <a href="sketches&drawings.php">
                 <div class="card-2"></div>
               </a>
@@ -43,7 +43,7 @@
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">
             <div class="card-body bg-light">
-              <h5 class="text-uppercase card-title pb-4">GLASS AND CERAMICS</h5>
+              <h5 class="text-uppercase card-title pb-4">Glass And Ceramics</h5>
               <a href="glass&ceramics.php">
                 <div class="card-3"></div>
               </a>
@@ -56,7 +56,7 @@
         <div class="col-lg-3 col-md-6 col-12 pb-3">
           <div class="card">
             <div class="card-body bg-light">
-              <h5 class="text-uppercase card-title pb-4">DESIGN</h5>
+              <h5 class="text-uppercase card-title pb-4">Design</h5>
               <a href="design.php">
                 <div class="card-4"></div>
               </a>
@@ -70,10 +70,10 @@
     </section>
   </div>
 
-  <!-- Google Map -->
-  <?php include("gmap.php"); ?>
-
 </main>
+
+<!-- Google Map -->
+<?php include("gmap.php"); ?>
 
 <!-- Footer -->
 <?php include("footer.php"); ?>
