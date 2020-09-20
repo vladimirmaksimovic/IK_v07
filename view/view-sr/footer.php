@@ -59,7 +59,7 @@
   </div>
   <div class="row m-0 bg-light">
     <div class="container-fluid">
-      <h3 class="text-center text-dark m-auto pt-3">Prijatelji i familija</h3>
+      <!-- <h3 class="text-center text-dark m-auto pt-3">Prijatelji i familija</h3> -->
       <ul class="friends-and-family">
         <li><a href="#" target="_blank"><img src="../../assets/images/art-img-12.svg" alt="" class="footer-logo"></a></li>
         <li><a href="#" target="_blank"><img src="../../assets/images/art-img-11.svg" alt="" class="footer-logo"></a></li>

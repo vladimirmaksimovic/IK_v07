@@ -21,9 +21,9 @@ $atelje = $dao->selectAtelje();
   </nav>
 
   <div class="container">
-    <div class="heading">
+    <!-- <div class="heading">
       <h3>Sketches & Drawings Gallery</h3>
-    </div>
+    </div> -->
 
     <!-- Gallery -->
     <section class="container">
@@ -31,13 +31,14 @@ $atelje = $dao->selectAtelje();
 
         <?php foreach (array_reverse($atelje) as $value) { ?>
 
-          <?php if ($value['category'] == 2) {  ?>
+        <?php if ($value['category'] == 2) {  ?>
 
-            <div class="card item zoom-on-hover">
+        <div class="card item zoom-on-hover">
 
-              <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
+          <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img
+              src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
 
-                <?php
+            <?php
 
                 if ($value['sold'] == 0) {
                   $s = '';
@@ -46,7 +47,7 @@ $atelje = $dao->selectAtelje();
 
                 ?>
 
-                <?php
+            <?php
 
                 if ($value['sold'] == 1) {
                   $s = 'SOLD';
@@ -55,19 +56,19 @@ $atelje = $dao->selectAtelje();
 
                 ?>
 
-                <p class="<?php echo $p ?> text-white"><?php echo $s ?></p>
+            <p class="<?php echo $p ?> text-white"><?php echo $s ?></p>
 
-                <span class="description">
+            <span class="description">
 
-                  <span class="description-heading"><?= $value['nameen'] ?></span>
+              <span class="description-heading"><?= $value['nameen'] ?></span>
 
-                  <span class="description-body"><?= $value['memoen'] ?></span>
+              <span class="description-body"><?= $value['memoen'] ?></span>
 
-                </span>
-              </a>
-            </div>
+            </span>
+          </a>
+        </div>
 
-          <?php } ?>
+        <?php } ?>
 
         <?php } ?>
 

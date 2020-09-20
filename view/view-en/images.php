@@ -21,9 +21,9 @@ $atelje = $dao->selectAtelje();
   </nav>
 
   <div class="container">
-    <div class="heading">
+    <!-- <div class="heading">
       <h3>Paintings Gallery</h3>
-    </div>
+    </div> -->
 
     <!-- Gallery -->
     <section class="container">
