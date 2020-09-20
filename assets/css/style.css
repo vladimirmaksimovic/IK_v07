@@ -334,6 +334,9 @@ footer a:hover {
 }
 
 .to-the-top {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
   text-transform: uppercase;
   font-weight: 700;
 }

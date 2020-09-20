@@ -89,8 +89,8 @@
             class="fas fa-paint-brush"></i></a>
       </div>
       <button type="button" onclick="backToTheFuture()"
-        class="btn btn-outline-light text-light rounded-pill align-self-end m-auto pb-1 pt-2 to-the-top">
-        To The Top
+        class="btn btn-outline-dark text-light rounded-pill align-self-end m-auto pb-1 pt-2 to-the-top">
+        <i class="fas fa-arrow-up"></i>
       </button>
     </div>
   </div>
