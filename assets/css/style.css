@@ -46,6 +46,10 @@ nav a:hover {
   padding-top: 2.5rem;
 }
 
+.logo-rotate {
+  max-height: 80vh;
+}
+
 .home-slide {
   display: block;
   height: 80vh;
@@ -165,7 +169,7 @@ nav a:hover {
 /** CAROUSEL **/
 .mySlides {
   display: block;
-  /* height: 55vh; */
+  height: 55vh;
 }
 
 .inner {
@@ -356,6 +360,14 @@ footer a:hover {
 }
 
 /*** MEDIA QUERIES ***/
+
+/* min-width: 576px */
+@media (max-width: 27.75rem) {
+  .mySlides {
+    display: block;
+    height: 29vh;
+  }
+}
 
 /* min-width: 576px */
 @media (min-width: 36rem) {
