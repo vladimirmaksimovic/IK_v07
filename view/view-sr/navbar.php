@@ -1,7 +1,8 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">Atelje</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -25,17 +26,17 @@
 
         <?php if (isset($_SESSION['ses'])) { ?>
 
-          <li class="nav-item">
-            <a class="nav-link workshop-title" href="../view/view-sr/CRUDgalery.php">Insert/Edit/Delete</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link workshop-title" href="../view/view-sr/CRUDgalery.php">Insert/Edit/Delete</a>
+        </li>
 
         <?php } ?>
 
         <?php if (isset($_SESSION['ses'])) { ?>
 
-          <li class="nav-item">
-            <a class="nav-link workshop-title" href="../controller/logout.php">Logout</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link workshop-title" href="../controller/logout.php">Logout</a>
+        </li>
 
         <?php } ?>
 

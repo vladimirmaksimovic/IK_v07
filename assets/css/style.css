@@ -43,7 +43,7 @@ nav a:hover {
 
 .logo {
   margin: auto;
-  padding-top: 2.5rem;
+  padding: 2rem 0;
 }
 
 .logo-rotate {
@@ -185,9 +185,9 @@ nav a:hover {
 }
 
 /*** WORKSHOP ***/
-.workshop-title {
+/* .workshop-title {
   text-transform: uppercase;
-}
+} */
 
 /*** GALLERY ***/
 .logo-gallery {
