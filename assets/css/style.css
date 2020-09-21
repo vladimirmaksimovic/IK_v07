@@ -5,10 +5,7 @@ body {
   font-size: 1.1rem;
 }
 
-/*** NAVBAR ***/
-/* .container {
-  max-width: 1260px;
-} */
+/*** NAVBAR SECTION ***/
 
 nav {
   padding-top: 1.2rem !important;
@@ -34,7 +31,7 @@ nav a:hover {
   font-size: 1.5rem;
 }
 
-/*** HOME ***/
+/*** HOME PAGE***/
 .home,
 .gallery,
 .about {
@@ -60,11 +57,7 @@ nav a:hover {
   color: #000;
 }
 
-/*** EVENTS ***/
-/* .accordion {
-  min-height: 100vh;
-} */
-
+/*** EVENTS PAGE ***/
 .accordion .card {
   width: 100%;
   border: none;
@@ -184,12 +177,7 @@ nav a:hover {
   transform: scale(1.2);
 }
 
-/*** WORKSHOP ***/
-/* .workshop-title {
-  text-transform: uppercase;
-} */
-
-/*** GALLERY ***/
+/*** GALLERY PAGE ***/
 .logo-gallery {
   height: 35.8rem;
   padding: 3rem 0 0 1rem;
@@ -261,9 +249,7 @@ nav a:hover {
   background: none !important;
 }
 
-/*** IMAGES GALLERY ***/
-
-/*** ABOUT ME ***/
+/*** ABOUT PAGE***/
 .about-me-img {
   padding: 0 0 1rem 0;
   width: 100%;
@@ -277,7 +263,7 @@ iframe {
   border: none;
 }
 
-/*** FOOTER ***/
+/*** FOOTER SECTION ***/
 footer {
   background-color: #555;
   color: #fff;
@@ -321,7 +307,6 @@ footer a:hover {
 }
 
 .footer-logo:hover {
-  /* background-color: rgba(255, 193, 7, 0.6); */
   background-color: #ffc107;
 }
 
@@ -364,7 +349,7 @@ footer a:hover {
 
 /*** MEDIA QUERIES ***/
 
-/* min-width: 576px */
+/* max-width: 576px */
 @media (max-width: 27.75rem) {
   .mySlides {
     display: block;
