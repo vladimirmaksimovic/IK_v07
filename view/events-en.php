@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include "header.php"; ?>
+<?php include "header-en.php"; ?>
 
 <!-- Main -->
 <main class="events pt-5 mt-5 bg-light">
@@ -21,19 +21,19 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/images/art-img-01.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-01.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-02.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-02.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-03.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-03.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-04.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-04.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-05.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-05.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
           </div>
         </div>
@@ -41,14 +41,12 @@
 
       <div class="card-header bg-light" id="headingOne">
         <h3 class="mb-0">
-          <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse"
-            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             About event ...
           </button>
         </h3>
       </div>
-      <div id="collapseOne" class="collapse bg-secondary text-light" aria-labelledby="headingOne"
-        data-parent="#accordionExample">
+      <div id="collapseOne" class="collapse bg-secondary text-light" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
           officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
@@ -73,19 +71,19 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/images/art-img-06.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-06.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
               <img src="../../assets/images/art-img-07.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-08.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-08.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-09.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-09.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-10.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-10.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
           </div>
         </div>
@@ -93,14 +91,12 @@
 
       <div class="card-header bg-light" id="headingOne">
         <h3 class="mb-0">
-          <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse"
-            data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
             About event ...
           </button>
         </h3>
       </div>
-      <div id="collapseTwo" class="collapse bg-secondary text-light" aria-labelledby="headingOne"
-        data-parent="#accordionExample">
+      <div id="collapseTwo" class="collapse bg-secondary text-light" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
           officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
@@ -125,19 +121,19 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/images/art-img-11.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-11.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-12.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-12.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-03.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-03.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-06.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-06.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-08.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-08.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
           </div>
         </div>
@@ -145,14 +141,12 @@
 
       <div class="card-header bg-light" id="headingOne">
         <h3 class="mb-0">
-          <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse"
-            data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
             About event ...
           </button>
         </h3>
       </div>
-      <div id="collapseThree" class="collapse bg-secondary text-light" aria-labelledby="headingOne"
-        data-parent="#accordionExample">
+      <div id="collapseThree" class="collapse bg-secondary text-light" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
           officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
@@ -171,4 +165,4 @@
 </main>
 
 <!-- Footer -->
-<?php include "footer.php"; ?>
+<?php include "footer-en.php"; ?>

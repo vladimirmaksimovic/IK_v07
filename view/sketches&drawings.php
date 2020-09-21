@@ -1,9 +1,9 @@
-<!-- Header -->
+﻿<!-- Header -->
 <?php include("header.php"); ?>
 
 <?php
 
-require_once '../../model/DAO.php';
+require_once '../model/DAO.php';
 $dao = new DAO();
 $atelje = $dao->selectAtelje();
 
@@ -15,14 +15,14 @@ $atelje = $dao->selectAtelje();
   <!-- Breadcrumb -->
   <nav class="breadcrumb-container mt-4" aria-label="breadcrumb">
     <ol class="breadcrumb container-fluid bg-transparent justify-content-end">
-      <li class="breadcrumb-item"><a href="../../view/view-en/gallery.php">Gallery</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Design Gallery</li>
+      <li class="breadcrumb-item"><a href="../view/gallery.php">Galerija</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Galerija skica i crteža</li>
     </ol>
   </nav>
 
   <div class="container">
     <!-- <div class="heading">
-      <h3>Design Gallery</h3>
+      <h3>Galerija skica i crteža</h3>
     </div> -->
 
     <!-- Gallery -->
@@ -31,11 +31,11 @@ $atelje = $dao->selectAtelje();
 
         <?php foreach (array_reverse($atelje) as $value) { ?>
 
-          <?php if ($value['category'] == 4) {  ?>
+          <?php if ($value['category'] == 2) {  ?>
 
             <div class="card item zoom-on-hover">
 
-              <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
+              <a href="../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
 
                 <?php
 
@@ -49,7 +49,7 @@ $atelje = $dao->selectAtelje();
                 <?php
 
                 if ($value['sold'] == 1) {
-                  $s = 'SOLD';
+                  $s = 'PRODATO';
                   $p = "bg-danger";
                 }
 
@@ -59,9 +59,11 @@ $atelje = $dao->selectAtelje();
 
                 <span class="description">
 
-                  <span class="description-heading"><?= $value['nameen'] ?></span>
+                  <span class="description-heading"><?= $value['namesr'] ?></span>
 
-                  <span class="description-body"><?= $value['memoen'] ?></span>
+                  <span class="description-body"><?= $value['memosr'] ?></span>
+
+                  <span class="description-body text-warning"><?= $s ?></span>
 
                 </span>
               </a>

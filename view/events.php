@@ -21,19 +21,19 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/images/art-img-01.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-01.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-02.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-02.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-03.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-03.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-04.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-04.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-05.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-05.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
           </div>
         </div>
@@ -71,19 +71,19 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/images/art-img-06.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-06.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-07.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-07.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-08.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-08.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-09.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-09.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-10.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-10.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
           </div>
         </div>
@@ -121,19 +121,19 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/images/art-img-11.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-11.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-12.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-12.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-03.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-03.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-06.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-06.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/art-img-08.svg" class="mySlides img-fluid mx-auto" alt="" />
+              <img src="../assets/images/art-img-08.svg" class="mySlides img-fluid mx-auto" alt="" />
             </div>
           </div>
         </div>

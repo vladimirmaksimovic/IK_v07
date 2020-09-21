@@ -7,8 +7,8 @@
 
     <!-- Logo -->
     <section class="col-lg-2 col-md-12 logo-container">
-      <img src="../../assets/images/art-logo-y.svg" alt="Logo" class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
-      <img src="../../assets/images/art-logo-x.svg" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
+      <img src="../assets/images/art-logo-y.svg" alt="Logo" class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
+      <img src="../assets/images/art-logo-x.svg" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
     </section>
 
     <!-- Cards -->

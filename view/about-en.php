@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include("header.php"); ?>
+<?php include("header-en.php"); ?>
 
 <!-- Main -->
 <main class="about-me pt-5 bg-light">
@@ -7,8 +7,8 @@
 
     <!-- Logo -->
     <section class="col-lg-2 col-md-12 logo-container">
-      <img src="../../assets/images/art-logo-y.svg" alt="Logo" class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
-      <img src="../../assets/images/art-logo-x.svg" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
+      <img src="../assets/images/art-logo-y.svg" alt="Logo" class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
+      <img src="../assets/images/art-logo-x.svg" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
     </section>
 
     <!-- About Me -->
@@ -17,7 +17,7 @@
       <div class="container pl-5 pr-5 pt-5">
         <div class="row">
           <div>
-            <img class="img-fluid float-left about-me-img" src="../../assets/images/art-img-03.svg" alt="Ivana Knežević" />
+            <img class="img-fluid float-left about-me-img" src="../assets/images/art-img-03.svg" alt="Ivana Knežević" />
             <h3>Biography</h3>
             <p class="text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolore nihil possimus expedita. Dolorum accusamus inventore assumenda omnis in beatae alias enim, repudiandae ab! Quaerat impedit praesentium labore veritatis aspernatur?
@@ -83,4 +83,4 @@
 </main>
 
 <!-- Footer -->
-<?php include("footer.php"); ?>
+<?php include("footer-en.php"); ?>

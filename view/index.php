@@ -7,10 +7,8 @@
 
     <!-- Logo -->
     <section class="col-lg-2 col-md-12 logo-container">
-      <img src="../../assets/images/art-logo-y.svg" alt="Logo"
-        class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
-      <img src="../../assets/images/art-logo-x.svg" alt="Logo"
-        class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
+      <img src="../assets/images/art-logo-y.svg" alt="Logo" class="logo logo-rotate img-fluid d-lg-block d-md-none d-sm-none d-none " />
+      <img src="../assets/images/art-logo-x.svg" alt="Logo" class="logo img-fluid d-lg-none d-md-block d-sm-block d-block" />
     </section>
 
     <!-- Carousel -->
@@ -28,23 +26,21 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../../assets/images/art-img-02.svg" class="home-slide img-fluid" style="object-fit:cover;"
-              alt="" />
+            <img src="../assets/images/art-img-02.svg" class="home-slide img-fluid" style="object-fit:cover;" alt="" />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../../assets/images/art-img-05.svg" class="home-slide img-fluid" style="object-fit:cover;"
-              alt="" />
+            <img src="../assets/images/art-img-05.svg" class="home-slide img-fluid" style="object-fit:cover;" alt="" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../../assets/images/art-img-06.svg" class="home-slide" style="object-fit:cover;" alt="" />
+            <img src="../assets/images/art-img-06.svg" class="home-slide" style="object-fit:cover;" alt="" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
@@ -53,7 +49,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../../assets/images/art-img-03.svg" class="home-slide" style="object-fit:cover;" alt="" />
+            <img src="../assets/images/art-img-03.svg" class="home-slide" style="object-fit:cover;" alt="" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Fourth slide label</h5>
               <p>

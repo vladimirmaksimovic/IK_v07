@@ -1,8 +1,9 @@
-<?php include("header.php"); ?>
+<!-- Header -->
+<?php include("header-en.php"); ?>
 
 <?php
 
-require_once '../../model/DAO.php';
+require_once '../model/DAO.php';
 $dao = new DAO();
 $atelje = $dao->selectAtelje();
 
@@ -14,14 +15,14 @@ $atelje = $dao->selectAtelje();
   <!-- Breadcrumb -->
   <nav class="breadcrumb-container mt-4" aria-label="breadcrumb">
     <ol class="breadcrumb container-fluid bg-transparent justify-content-end">
-      <li class="breadcrumb-item"><a href="../../view/view-sr/gallery.php">Galerija</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Galerija slika</li>
+      <li class="breadcrumb-item"><a href="../view/gallery-en.php">Gallery</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Design Gallery</li>
     </ol>
   </nav>
 
   <div class="container">
     <!-- <div class="heading">
-      <h3>Galerija slika</h3>
+      <h3>Design Gallery</h3>
     </div> -->
 
     <!-- Gallery -->
@@ -30,12 +31,11 @@ $atelje = $dao->selectAtelje();
 
         <?php foreach (array_reverse($atelje) as $value) { ?>
 
-          <!-- Condition for category value -->
-          <?php if ($value['category'] == 1) { ?>
+          <?php if ($value['category'] == 4) {  ?>
 
             <div class="card item zoom-on-hover">
 
-              <a href="../../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
+              <a href="../assets/images/<?= $value['image'] ?>" target="_blank"><img src="../assets/images/<?= $value['image'] ?>" class="card-img-top img-fluid image" alt="..." />
 
                 <?php
 
@@ -49,7 +49,7 @@ $atelje = $dao->selectAtelje();
                 <?php
 
                 if ($value['sold'] == 1) {
-                  $s = 'PRODATO';
+                  $s = 'SOLD';
                   $p = "bg-danger";
                 }
 
@@ -59,15 +59,12 @@ $atelje = $dao->selectAtelje();
 
                 <span class="description">
 
-                  <span class="description-heading"><?= $value['namesr'] ?></span>
+                  <span class="description-heading"><?= $value['nameen'] ?></span>
 
-                  <span class="description-body"><?= $value['memosr'] ?></span>
-
-                  <span class="description-body text-warning"><?= $s ?></span>
+                  <span class="description-body"><?= $value['memoen'] ?></span>
 
                 </span>
               </a>
-
             </div>
 
           <?php } ?>
@@ -80,4 +77,4 @@ $atelje = $dao->selectAtelje();
 </main>
 
 <!-- Footer -->
-<?php include("footer.php"); ?>
+<?php include("footer-en.php"); ?>
