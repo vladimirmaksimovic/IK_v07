@@ -80,7 +80,7 @@
     <div class="container d-flex flex-wrap p-1">
       <div class="m-auto pt-1 pb-2">
         Copyright &#169;2020 Atelje Umetnika
-        | Design <span class="extra-space"></span><a href="admin.php" target="_blank"><i class="fas fa-paint-brush"></i></a>
+        | Design <span class="extra-space"></span><a href="../cms/admin.php" target="_blank"><i class="fas fa-paint-brush"></i></a>
       </div>
       <button type="button" onclick="backToTheFuture()" class="btn btn-outline-dark text-light rounded-pill align-self-end m-auto pb-1 pt-2 to-the-top">
         <i class="fas fa-arrow-up"></i>

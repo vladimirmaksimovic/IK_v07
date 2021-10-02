@@ -21,7 +21,7 @@ switch ($action) {
 				if ($username == $value['name'] && $password == $value['password']) {
 					$_SESSION['ses'] = $username;
 					echo ($_SESSION['ses']);
-					header('location:../view/CRUDgalery.php');
+					header('location:../cms/CRUDgalery.php');
 				} else {
 					sleep(1);
 					header('location:../view/index.php');

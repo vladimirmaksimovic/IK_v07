@@ -26,7 +26,7 @@
         <?php if (isset($_SESSION['ses'])) { ?>
 
           <li class="nav-item">
-            <a class="nav-link workshop-title" href="../view/view-sr/CRUDgalery.php">Insert/Edit/Delete</a>
+            <a class="nav-link workshop-title" href="../cms/CRUDgalery.php">Insert/Edit/Delete</a>
           </li>
 
         <?php } ?>

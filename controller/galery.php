@@ -33,10 +33,10 @@ switch ($action) {
             move_uploaded_file($image_tmp, $uploaded_image);
             $dao = new DAO();
             $dao->insertAtelje($imageNameType, $namesr, $memosr, $nameen, $memoen, $category, $sold);
-            header('location: ../view/CRUDgalery.php');
+            header('location: ../cms/CRUDgalery.php');
         } else {
             $msg = 'UPOZORENJE: Slika mora biti u jpg formatu i morate uneti ime na srpskom i engleskom';
-            include '../view/CRUDgalery.php';
+            include '../cms/CRUDgalery.php';
         }
         break;
 
@@ -47,13 +47,13 @@ switch ($action) {
         $delete_picture = "../images/" . $picture;
         unlink($delete_picture);
         $dao->deleteAteljeById($_REQUEST['id']);
-        header('location: ../view/CRUDgalery.php');
+        header('location: ../cms/CRUDgalery.php');
         break;
 
     case 'Edit':
         $dao = new DAO();
         $galery = $dao->selectAteljeById($_REQUEST['id']);
-        include '../view/editGalery.php';
+        include '../cms/editGalery.php';
         break;
 
     case 'Save':
@@ -75,19 +75,19 @@ switch ($action) {
         if (!empty($namesr) && !empty($nameen)) {
             $dao = new DAO();
             $dao->updateAteljeById($nameen, $namesr, $memoen, $memosr, $category, $sold, $id);
-            header('location: ../view/CRUDgalery.php');
+            header('location: ../cms/CRUDgalery.php');
         } else {
             $msg = "UPOZORENJE: Naziv ne moze biti prazan.  Promena nije uradjena.";
             $dao = new DAO();
             $galery = $dao->selectAteljeById($_REQUEST['id']);
-            include '../view/editGalery.php';
+            include '../cms/editGalery.php';
         }
         break;
 
     case 'EditPicture':
         $dao = new DAO();
         $galery = $dao->selectAteljeById($_REQUEST['id']);
-        include '../view/editPicture.php';
+        include '../cms/editPicture.php';
         break;
 
     case 'UpdatePicture':
@@ -105,14 +105,14 @@ switch ($action) {
             unlink($delete_picture);
             move_uploaded_file($image_tmp, $uploaded_image);
             sleep(5);
-            header('location: ../view/CRUDgalery.php');
+            header('location: ../cms/CRUDgalery.php');
         } else {
             $msg = "UPOZORENJE:  Zamena slike nije uspela, slika mora biti u jpg formatu. Pokusajte ponovo.";
-            include '../view/CRUDgalery.php';
+            include '../cms/CRUDgalery.php';
         }
-        // mislim da ovde nedostaje BRAKE;
+        break;
 
     default:
-        header("location: ../view/CRUDgalery.php");
+        header("location: ../cms/CRUDgalery.php");
         break;
 }

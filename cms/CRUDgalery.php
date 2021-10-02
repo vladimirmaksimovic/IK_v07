@@ -1,17 +1,19 @@
-<?php include("header.php"); ?>
+<?php include("../view/header.php"); ?>
 
-<?php include("navbaredit.php"); ?>
+<?php include("../view/navbaredit.php"); ?>
 
 <?php
 if (!isset($_SESSION['ses'])) {
-    header('location: index.php');
+    header('location: ../view/index.php');
 }
+
+/* include("../view/index.php"); */
 ?>
 
 <?php $msg = isset($msg) ? $msg : "" ?>
 
 <?php
-require_once '../models/DAO.php';
+require_once '../model/DAO.php';
 $dao = new DAO();
 $atelje = $dao->selectAtelje();
 
@@ -147,7 +149,7 @@ $category = isset($category) ? $category : "";
     </main>
 
     <!-- Footer -->
-    <?php include("footer.php"); ?>
+    <?php include("../view/footer.php"); ?>
 
 </body>
 
